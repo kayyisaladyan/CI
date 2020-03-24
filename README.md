@@ -1,1 +1,1 @@
-# CI Kayyis pinter
+# CI Kayyis pinter sekali
