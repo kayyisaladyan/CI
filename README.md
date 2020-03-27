@@ -1,1 +1,1 @@
-# CI Kayyis pinter sekali ADUHHH
+# CI Kayyis
