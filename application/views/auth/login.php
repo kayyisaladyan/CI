@@ -33,8 +33,8 @@
           <div class="card-body p-0">
             <!-- Nested Row within Card Body -->
             <div class="row">
-              
-              <div class="col-lg-6">
+
+              <div class="col-lg-12">
                 <div class="p-5">
                   <div class="text-center">
                     <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
@@ -46,7 +46,7 @@
                     <?php endif; ?>
                   <?= form_open('auth/proses_login',array('method' =>'POST')) ?>
                     <div class="form-group">
-                      <input type="text" name='username' class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Username">
+                      <input autocomplete="off" type="text" name='username' class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Username">
                       <small class="form-text text-danger"><?= form_error('username'); ?></small>
                     </div>
                     <div class="form-group">
@@ -62,17 +62,10 @@
                     <button class="btn btn-primary btn-user btn-block">
                       login
                     </button>
-                    <hr>
-                    <a href="index.html" class="btn btn-google btn-user btn-block">
-                      <i class="fab fa-google fa-fw"></i> Login with Google
-                    </a>
-                    <a href="index.html" class="btn btn-facebook btn-user btn-block">
-                      <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook
-                    </a>
                     <?php echo form_close() ?>
                   <hr>
-                
-                  
+
+
                 </div>
               </div>
             </div>

@@ -6,6 +6,6 @@ class wisata_model extends CI_Model {
 
 	public function getAllData()
 	{
-		return $this->db->get('data_wisata');
+		return $this->db->get('wisata');
 	}
 }
