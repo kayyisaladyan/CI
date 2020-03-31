@@ -36,15 +36,15 @@
                       <th><?php echo $no++; ?></th>
                       <td><?php echo $db->nama_wisata; ?></td>
                       <td><?php echo $db->lokasi; ?></td>
-                      <td><?php echo $db->jam_buka; ?></td>
+                      <td><?php echo $db->jam_operasional; ?></td>
                       <td><?php echo $db->harga; ?></td>
                       <td><?php echo $db->kontak_wisata; ?></td>
                       <td><?php echo $db->rating; ?></td>
                       <td><img width="220" height="150" src="<?php echo base_url('images/'.$db->gambar) ?>" alt=""></td>
                       <td><a class="btn btn-primary"
-                      href="<?php echo base_url('dashboard/edit?id_wisata='.$db->id_wisata) ?>">Edit</a>
+                      href="<?php echo base_url('dashboard/edit/'.$db->id_wisata) ?>">Edit</a>
                       <a class="btn btn-danger"
-                      href="proses/delete_wisata_admin.php?id_wisata">Hapus</a></td>
+                      href="<?php echo base_url('dashboard/hapus/'.$db->id_wisata) ?>">Hapus</a></td>
                     </tr>
                   <?php endforeach; ?>
                   </tbody>

@@ -37,16 +37,40 @@ class Dashboard extends CI_Controller {
 		$this->load->view('layouts/header', $judul);
 		$this->load->view('dashboard/tables', $data);
 		$this->load->view('layouts/footer');
-	}	
+	}
 
-	public function edit()
+	public function edit($id)
 	{
-
+		$data['wisata'] = $this->wisata_model->getWisataSingle($id)->row();
 		$judul['judul'] = 'Ini Halaman Edit';
 		$this->load->view('layouts/header', $judul);
-		$this->load->view('dashboard/edit');
+		$this->load->view('dashboard/edit',$data);
 		$this->load->view('layouts/footer');
-	}		
+	}
+
+	public function proses_edit($id)
+	{
+	 $config['upload_path']          = './images/';
+	 $config['allowed_types']        = 'gif|jpg|png|jpeg';
+	 $config['max_size']             = 2000;
+
+	 $this->load->library('upload', $config);
+
+	 if (! $this->upload->do_upload('gambar')) {
+		 $this->session->set_flashdata('status','File gagal diupload.');
+		 redirect(base_url('Dashboard/edit/'.$id));
+		 }else {
+		 $this->wisata_model->updateWisata();
+		 $this->session->set_flashdata('flash','Diubah');
+		 redirect(base_url('dashboard/tables'));
+		 }
+	}
+
+	public function hapus($id)
+	{
+	   $this->wisata_model->deleteWisata($id);
+		 redirect(base_url('dashboard/tables'));
+	}
 
 	public function form()
 	{
@@ -54,5 +78,5 @@ class Dashboard extends CI_Controller {
 		$this->load->view('dashboard/form');
 	}
 
-		
+
 }
