@@ -17,6 +17,7 @@
 
   <!-- Custom styles for this template-->
   <link href="<?php echo base_url('assets/') ?>css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="<?php echo base_url('assets/') ?>vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 
 </head>
 
@@ -55,37 +56,19 @@
 
       <!-- Heading -->
       <div class="sidebar-heading">
-        Addons
+        Wisata
       </div>
-
-      <!-- Nav Item - Pages Collapse Menu -->
-    <!--   <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
-          <i class="fas fa-fw fa-folder"></i>
-          <span>Pages</span>
-        </a>
-        <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Login Screens:</h6>
-            <a class="collapse-item" href="<?php echo base_url('dashboard/login') ?>">Login</a>
-
-
-            <div class="collapse-divider"></div>
-
-          </div>
-        </div>
-      </li> -->
 
       <!-- Nav Item - Charts -->
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url('dashboard/charts') ?>">
+        <a class="nav-link" href="<?php echo base_url('dashboard/tambah_wisata') ?>">
           <i class="fas fa-fw fa-chart-area"></i>
-          <span>Grafik</span></a>
+          <span>Tambah Wisata</span></a>
       </li>
 
       <!-- Nav Item - Tables -->
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url('dashboard/tables') ?>">
+        <a class="nav-link" href="<?php echo base_url('dashboard/daftar_wisata') ?>">
           <i class="fas fa-fw fa-table"></i>
           <span>Data Wisata</span></a>
       </li>
@@ -244,7 +227,7 @@
                     </a>
 
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="<?php echo base_url('auth/logout') ?>" >
+                    <a class="dropdown-item" href="<?php echo base_url('Auth/logout') ?>" >
                       <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                       Logout
                     </a>

@@ -10,7 +10,7 @@
           <!-- DataTales Example -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">
-              <h6 class="m-0 font-weight-bold text-primary">DataTables</h6>
+              <h6 class="m-0 font-weight-bold text-primary">DataWisata</h6>
             </div>
             <div class="card-body">
               <div class="table-responsive">
@@ -18,13 +18,10 @@
                   <thead>
                     <tr>
                       <th>No</th>
-                      <th>Nama Objek Wisata</th>
-                      <th>Lokasi</th>
+                      <th>Nama Wisata</th>
                       <th>Jam Operasional</th>
                       <th>Harga</th>
-                      <th>Kontak Wisata</th>
                       <th>Rating</th>
-                      <th>Deskripsi</th>
                       <th>Aksi</th>
                     </tr>
                   </thead>
@@ -35,16 +32,13 @@
                     <tr>
                       <th><?php echo $no++; ?></th>
                       <td><?php echo $db->nama_wisata; ?></td>
-                      <td><?php echo $db->lokasi; ?></td>
                       <td><?php echo $db->jam_operasional; ?></td>
-                      <td><?php echo $db->harga; ?></td>
-                      <td><?php echo $db->kontak_wisata; ?></td>
+                      <td>Rp <?php echo number_format($db->harga); ?></td>
                       <td><?php echo $db->rating; ?></td>
-                      <td><img width="220" height="150" src="<?php echo base_url('images/'.$db->gambar) ?>" alt=""></td>
-                      <td><a class="btn btn-primary"
-                      href="<?php echo base_url('dashboard/edit/'.$db->id_wisata) ?>">Edit</a>
-                      <a class="btn btn-danger"
-                      href="<?php echo base_url('dashboard/hapus/'.$db->id_wisata) ?>">Hapus</a></td>
+                      <td><a class="btn btn-info btn-circle"
+                      href="<?php echo base_url('dashboard/edit_wisata/'.$db->id_wisata) ?>"><i class="fas fa-info-circle"></i></a>
+                      <a class="btn btn-danger btn-circle"
+                      href="<?php echo base_url('dashboard/hapus/'.$db->id_wisata) ?>"><i class="fas fa-trash"></i></a></td>
                     </tr>
                   <?php endforeach; ?>
                   </tbody>
