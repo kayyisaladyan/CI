@@ -28,7 +28,7 @@ class wisata_model extends CI_Model {
 
 	public function getWisataSingle($id)
 	{
-	   $query = $this->db->get('wisata',['id_wisata' => $id]);
+	   $query = $this->db->get_where('wisata',['id_wisata' => $id]);
 		 return $query;
 	}
 
