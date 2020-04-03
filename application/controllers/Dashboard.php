@@ -109,7 +109,7 @@ class Dashboard extends CI_Controller {
 
 	public function proses_edit($id)
 	{
-	 $config['upload_path']          = './images/';
+	 $config['upload_path']          = './uploads/';
 	 $config['allowed_types']        = 'gif|jpg|png|jpeg';
 	 $config['max_size']             = 8000;
 
@@ -119,7 +119,7 @@ class Dashboard extends CI_Controller {
 		 $this->session->set_flashdata('status','File gagal diupload.');
 		 redirect(base_url('Dashboard/edit_wisata/'.$id));
 		 }else {
-		 $this->wisata_model->updateWisata();
+		 $this->Wisata_model->updateWisata();
 		 $this->session->set_flashdata('flash','Diubah');
 		 redirect(base_url('dashboard/daftar_wisata'));
 		 }

@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class wisata_model extends CI_Model {
+class Wisata_model extends CI_Model {
 
 	public function idWisata()
 	{
@@ -58,7 +58,7 @@ class wisata_model extends CI_Model {
 			 "gambar" 					=> $gambar
 		 ];
 	   $this->db->where('id_wisata', $id_wisata);
-		 $this->db->update('wisata', $data);
+		 return $this->db->update('wisata', $data);
 	}
 
 	public function deleteWisata($id)
