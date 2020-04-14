@@ -6,7 +6,7 @@
       <ul>
         <li data-index="rs-163" data-transition="slideoververtical" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1500"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off" data-title="Intro" data-description="">
           <!-- main image for revolution slider -->
-          <img src="img/banner/img-05.jpg" alt="image"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+          <img src="<?php echo base_url('assets/') ?>img/banner/img-05.jpg" alt="image"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
 
           <div class="tp-caption banner-heading-sub tp-resizeme rs-parallaxlevel-10" id="slide-163-layer-1"
             data-x="['left','left','left','center']"
@@ -96,228 +96,6 @@
             <a class="btn btn-banner" href="#">FIND TOURS</a>
           </div>
         </li>
-        <!-- slide 2 -->
-        <li class="slider-color-schema-dark" data-index="rs-2" data-transition="fade" data-slotamount="7" data-easein="default" data-easeout="default" data-masterspeed="1000" data-rotate="0" data-saveperformance="off" data-title="Slide" data-description="">
-          <!-- main image for revolution slider -->
-          <img src="img/banner/img-06.jpg" alt="image" data-bgposition="center bottom" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-
-          <div class="tp-caption slide-3 tp-shape tp-resizeme rs-parallaxlevel-0"
-            data-x="['center','center','center','center']"
-            data-hoffset="['0','0','0','0']"
-            data-y="['middle','middle','middle','middle']"
-            data-voffset="['0','0','0','0']"
-            data-width="full"
-            data-height="full"
-            data-whitespace="normal"
-            data-transform_idle="o:1;"
-            data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"
-            data-transform_out="s:300;s:300;"
-            data-start="1000"
-            data-basealign="slide"
-            data-responsive_offset="on"
-            style="z-index:1;background-color: rgba(34, 34, 34, 0.30);"> </div>
-
-          <div class="tp-caption banner-heading-sub tp-resizeme rs-parallaxlevel-0"
-            data-x="['center','center','center','center']"
-            data-hoffset="['0','0','0','0']"
-            data-y="['middle','middle','middle','middle']"
-            data-voffset="['20','20','10','20']"
-            data-fontsize="['64','64','44','28']"
-            data-lineheight="['85','85','50','50']"
-            data-width="['1200','1000','750','480']"
-            data-height="none"
-            data-whitespace="normal"
-            data-transform_idle="o:1;"
-            data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
-            data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-            data-mask_in="x:0px;y:0px;"
-            data-mask_out="x:inherit;y:inherit;"
-            data-start="1000"
-            data-splitin="none"
-            data-splitout="none"
-            data-responsive_offset="on"
-            style="z-index: 7; letter-spacing: 0; font-weight: 100; text-align: center; color: #ffffff">EXPEDITION OF UNEXPLORED </div>
-
-          <div class="tp-caption tp-resizeme rs-parallaxlevel-10"
-            data-x="['center','center','center','center']"
-            data-hoffset="['0','0','0','0']"
-            data-y="['middle','middle','middle','middle']"
-            data-voffset="['100','100','60','60']"
-            data-fontsize="['80','80','60','40']"
-            data-lineheight="['110','110','100','60']"
-            data-width="none"
-            data-height="none"
-            data-whitespace="nowrap"
-            data-transform_idle="o:1;"
-            data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;"
-            data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-            data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-            data-start="1000"
-            data-splitin="none"
-            data-splitout="none"
-            data-responsive_offset="on"
-            style="z-index: 8; letter-spacing: 8px; padding-right: 10px; text-indent: 5px; font-style: italic; font-weight: 900; white-space: nowrap; color: #b0a377;">TERRITORY </div>
-
-          <div class="tp-caption rev-btn  rs-parallaxlevel-10" id="slide-163-layer1-2"
-            data-x="['center','center','center','center']"
-            data-hoffset="['0','0','0','0']"
-            data-y="['middle','middle','middle','middle']"
-            data-voffset="['268','271','180','150']"
-            data-width="none"
-            data-height="none"
-            data-whitespace="nowrap"
-            data-transform_idle="o:1;"
-            data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power3.easeOut;"
-            data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(107, 105, 87, 1.00);bg:rgba(107, 105, 87, 1.00);"
-            data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
-            data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-            data-mask_out="x:inherit;y:inherit;"
-            data-start="1250"
-            data-splitin="none"
-            data-splitout="none"
-            data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-164","delay":""}]'
-            data-responsive_offset="on"
-            style="z-index: 8; white-space: nowrap; font-size: 18px; line-height: 24px; font-weight: 700; color: #b0a377; background-color:transparent; padding:11px 70px; border-color:#6b6957; border-style:solid; border-width:2px; border-radius:25px; text-transform: uppercase; letter-spacing: 1px;">FIND TOURS
-          </div>
-        </li>
-        <!-- slide 3 -->
-        <li data-index="rs-897" data-transition="fade" data-slotamount="default" data-easein="Power4.easeInOut" data-easeout="default" data-masterspeed="2000" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-          <!-- main image for revolution slider -->
-          <img src="videos/video-thumb-3.jpg" alt="image" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="3" class="rev-slidebg" data-no-retina>
-
-          <div class="rs-background-video-layer"
-            data-forcerewind="on"
-            data-volume="mute"
-            data-videowidth="100%"
-            data-videoheight="100%"
-            data-videomp4="videos/video-3.mp4"
-            data-videopreload="preload"
-            data-videoloop="loopandnoslidestop"
-            data-aspectratio="16:9"
-            data-autoplay="true"
-            data-autoplayonlyfirsttime="false"
-            data-nextslideatend="true">
-          </div>
-
-          <div class="tp-caption tp-shape tp-shapewrapper" id="slide-897-layer-1"
-            data-x="['center','center','center','center']"
-            data-hoffset="['0','0','0','0']"
-            data-y="['middle','middle','middle','middle']"
-            data-voffset="['0','0','0','0']"
-            data-width="full"
-            data-height="full"
-            data-whitespace="nowrap"
-            data-transform_idle="o:1;"
-            data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"
-            data-transform_out="opacity:0;s:500;s:500;"
-            data-start="0"
-            data-basealign="slide"
-            data-responsive_offset="off"
-            data-responsive="off"
-            style="z-index: 7;background-color:rgba(51, 51, 51, 0.85);border-color:rgba(0, 0, 0, 0);">
-          </div>
-
-          <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" id="slide-897-layer-6"
-            data-x="['center','center','center','center']"
-            data-hoffset="['0','0','0','0']"
-            data-y="['middle','middle','middle','middle']"
-            data-voffset="['-86','-86','-86','-86']"
-            data-width="100"
-            data-height="2"
-            data-whitespace="nowrap"
-            data-transform_idle="o:1;"
-            data-transform_in="x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power3.easeInOut;"
-            data-transform_out="opacity:0;s:300;s:300;"
-            data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-            data-start="1000"
-            data-responsive_offset="on"
-            style="z-index: 8;background-color:rgba(255, 255, 255, 0.25);border-color:rgba(0, 0, 0, 0);">
-          </div>
-
-          <div class="tp-caption Dining-Title tp-resizeme" id="slide-897-layer-7"
-            data-x="['center','center','center','center']"
-            data-hoffset="['0','0','0','0']"
-            data-y="['middle','middle','middle','middle']"
-            data-voffset="['-158','-158','-158','-158']"
-            data-width="none"
-            data-height="none"
-            data-whitespace="nowrap"
-            data-transform_idle="o:1;"
-            data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;"
-            data-transform_out="opacity:0;s:300;s:300;"
-            data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-            data-start="1500"
-            data-splitin="none"
-            data-splitout="none"
-            data-responsive_offset="on"
-            style="z-index: 9; white-space: nowrap; font-size: 60px; line-height: 100px;text-align:center;">
-            <span class="icon-hiking-camping"></span>
-          </div>
-
-          <div class="tp-caption banner-heading-sub tp-resizeme" id="slide-897-layer-2"
-            data-x="['center','center','center','center']"
-            data-hoffset="['0','0','0','0']"
-            data-y="['middle','middle','middle','middle']"
-            data-voffset="['-28','-28','-37','-28']"
-            data-fontsize="['60','60','50','24']"
-            data-lineheight="['70','70','50','30']"
-            data-width="none"
-            data-height="none"
-            data-whitespace="nowrap"
-            data-transform_idle="o:1;"
-            data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;"
-            data-transform_out="opacity:0;s:300;s:300;"
-            data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-            data-start="1750"
-            data-splitin="none"
-            data-splitout="none"
-            data-responsive_offset="on"
-            style="z-index: 10; white-space: nowrap; font-size: 60px; font-weight: 900; line-height: 60px;">ENTRADA TOURISM
-          </div>
-
-          <div class="tp-caption banner-heading-sub tp-resizeme" id="slide-897-layer-4"
-            data-x="['center','center','center','center']"
-            data-hoffset="['0','0','0','40']"
-            data-y="['middle','middle','middle','middle']"
-            data-voffset="['40','40','44','20']"
-            data-fontsize="['44','44','36','24']"
-            data-lineheight="['20','20','30','30']"
-            data-width="['none','none','480','360']"
-            data-height="none"
-            data-whitespace="['nowrap','nowrap','nowrap','nowrap']"
-            data-transform_idle="o:1;"
-            data-transform_in="y:50px;opacity:0;s:2000;e:Power2.easeInOut;"
-            data-transform_out="opacity:0;s:300;s:300;"
-            data-start="2000"
-            data-splitin="none"
-            data-splitout="none"
-            data-responsive_offset="on"
-            style="z-index: 10; white-space: nowrap; font-weight: 300; line-height: 60px; color: #ffffff;">Premium travel reimagined.
-          </div>
-
-          <div class="tp-caption rev-btn  rs-parallaxlevel-10" id="slide-163-layer2-2"
-            data-x="['center','center','center','center']"
-            data-hoffset="['0','0','0','0']"
-            data-y="['middle','middle','middle','middle']"
-            data-voffset="['268','271','180','150']"
-            data-width="none"
-            data-height="none"
-            data-whitespace="nowrap"
-            data-transform_idle="o:1;"
-            data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power3.easeOut;"
-            data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(107, 105, 87, 1.00);bg:rgba(107, 105, 87, 1.00);"
-            data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
-            data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-            data-mask_out="x:inherit;y:inherit;"
-            data-start="1250"
-            data-splitin="none"
-            data-splitout="none"
-            data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-164","delay":""}]'
-            data-responsive_offset="on"
-            style="z-index: 8; white-space: nowrap; font-size: 18px; line-height: 24px; font-weight: 700; color: #b0a377; background-color:transparent; padding:11px 70px; border-color:#6b6957; border-style:solid; border-width:2px; border-radius:25px; text-transform: uppercase; letter-spacing: 1px;">FIND TOURS
-          </div>
-        </li>
       </ul>
     </div>
   </div>
@@ -336,69 +114,16 @@
           <div class="col-md-6 img-block">
             <!-- gallery list -->
             <ul class="gallery-list gallery-with-icon">
+            <?php foreach ($limit as $l): ?>
               <li>
                 <a href="#" class="thumbnail">
-                  <img src="img/gallery/img-01.jpg" height="165" width="170" alt="image description">
-                  <span class="hover icon-bird"></span>
-                  <span class="info">aerial</span>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="thumbnail">
-                  <img src="img/gallery/img-02.jpg" height="165" width="170" alt="image description">
-                  <span class="hover icon-peak"></span>
-                  <span class="info">land</span>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="thumbnail">
-                  <img src="img/gallery/img-03.jpg" height="165" width="170" alt="image description">
-                  <span class="hover icon-water"></span>
-                  <span class="info">water</span>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="thumbnail">
-                  <img src="img/gallery/img-04.jpg" height="165" width="170" alt="image description">
+                  <img src="<?php echo base_url('../admin/uploads/'.$l->gambar) ?>" height="165" width="170" alt="image description">
                   <span class="hover icon-asia"></span>
-                  <span class="info">asia</span>
+                  <span class="info"><?php echo $l->nama_wisata ?></span>
                 </a>
               </li>
-              <li>
-                <a href="#" class="thumbnail">
-                  <img src="img/gallery/img-05.jpg" height="165" width="170" alt="image description">
-                  <span class="hover icon-arctic"></span>
-                  <span class="info">arctic</span>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="thumbnail">
-                  <img src="img/gallery/img-06.jpg" height="165" width="170" alt="image description">
-                  <span class="hover icon-africa"></span>
-                  <span class="info">africa</span>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="thumbnail">
-                  <img src="img/gallery/img-07.jpg" height="165" width="170" alt="image description">
-                  <span class="hover icon-plant"></span>
-                  <span class="info">nature</span>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="thumbnail">
-                  <img src="img/gallery/img-08.jpg" height="165" width="170" alt="image description">
-                  <span class="hover icon-wildlife"></span>
-                  <span class="info">wildness</span>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="thumbnail">
-                  <img src="img/gallery/img-09.jpg" height="165" width="170" alt="image description">
-                  <span class="hover icon-diamond"></span>
-                  <span class="info">all</span>
-                </a>
-              </li>
+            <?php endforeach; ?>
+
             </ul>
           </div>
           <div class="col-md-6 text-block">
@@ -412,12 +137,7 @@
       </div>
     </div>
   </section>
-  <!-- special block -->
-  <aside class="special-block">
-    <div class="container">
-      <p class="special-text">Get special discount on select treks, this week. <strong>Call <a href="tel:157757525">+1 5775 7525</a></strong></p>
-    </div>
-  </aside>
+
   <!-- article list holder -->
   <div class="content-block content-spacing">
     <div class="container">
@@ -428,240 +148,45 @@
       </header>
       <div class="content-holder">
         <div class="row db-3-col">
-          <article class="col-sm-6 col-md-4 article has-hover-s3">
-            <div class="img-wrap">
-              <a href="#">
-                <img src="img/listing/img-01.jpg" height="215" width="370" alt="image description">
-              </a>
-              <div class="img-caption text-uppercase">Discover Timeless</div>
-              <div class="hover-article">
-                <div class="star-rating">
-                  <span><span class="icon-star"></span></span>
-                  <span><span class="icon-star"></span></span>
-                  <span><span class="icon-star"></span></span>
-                  <span><span class="icon-star"></span></span>
-                  <span class="disable"><span class="icon-star"></span></span>
-                </div>
-                <div class="icons">
-                  <a href="#"><span class="icon-heart"></span></a>
-                  <a href="#"><span class="icon-reply"></span></a>
-                </div>
-                <div class="info-footer">
-                  <span class="price">from <span>$2749</span></span>
-                  <a href="#" class="link-more">Explore</a>
-                </div>
-              </div>
-            </div>
-            <h3><a href="#">Jungle safari for families</a></h3>
-            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,</p>
-          </article>
-          <article class="col-sm-6 col-md-4 article has-hover-s3">
-            <div class="img-wrap">
-              <a href="#">
-                <img src="img/listing/img-02.jpg" height="215" width="370" alt="image description">
-              </a>
-              <div class="img-caption text-uppercase">Finding Egyptians</div>
-              <div class="hover-article">
-                <div class="star-rating">
-                  <span><span class="icon-star"></span></span>
-                  <span><span class="icon-star"></span></span>
-                  <span><span class="icon-star"></span></span>
-                  <span><span class="icon-star"></span></span>
-                  <span class="disable"><span class="icon-star"></span></span>
-                </div>
-                <div class="icons">
-                  <a href="#"><span class="icon-heart"></span></a>
-                  <a href="#"><span class="icon-reply"></span></a>
-                </div>
-                <div class="info-footer">
-                  <span class="price">from <span>$2749</span></span>
-                  <a href="#" class="link-more">Explore</a>
+
+
+
+          <?php foreach ($popular as $a): ?>
+            <article class="col-sm-6 col-md-4 article has-hover-s3">
+              <div class="img-wrap">
+                <a href="#">
+                  <img src="<?php echo base_url('../admin/uploads/'.$a->gambar) ?>" height="215" width="370" alt="image description">
+                </a>
+                <div class="img-caption text-uppercase">Treasure Hunting</div>
+                <div class="hover-article">
+                  <div class="star-rating">
+                    <span><span class="icon-star"></span></span>
+                    <span><span class="icon-star"></span></span>
+                    <span><span class="icon-star"></span></span>
+                    <span><span class="icon-star"></span></span>
+                    <span class="disable"><span class="icon-star"></span></span>
+                  </div>
+                  <div class="icons">
+                    <a href="#"><span class="icon-heart"></span></a>
+                    <a href="#"><span class="icon-reply"></span></a>
+                  </div>
+                  <div class="info-footer">
+                    <span class="price">from <span>$2749</span></span>
+                    <a href="#" class="link-more">Explore</a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <h3><a href="#">Nature wildlife photography</a></h3>
-            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,</p>
-          </article>
-          <article class="col-sm-6 col-md-4 article has-hover-s3">
-            <div class="img-wrap">
-              <a href="#">
-                <img src="img/listing/img-03.jpg" height="215" width="370" alt="image description">
-              </a>
-              <div class="img-caption text-uppercase">Cave Adventures</div>
-              <div class="hover-article">
-                <div class="star-rating">
-                  <span><span class="icon-star"></span></span>
-                  <span><span class="icon-star"></span></span>
-                  <span><span class="icon-star"></span></span>
-                  <span><span class="icon-star"></span></span>
-                  <span class="disable"><span class="icon-star"></span></span>
-                </div>
-                <div class="icons">
-                  <a href="#"><span class="icon-heart"></span></a>
-                  <a href="#"><span class="icon-reply"></span></a>
-                </div>
-                <div class="info-footer">
-                  <span class="price">from <span>$2749</span></span>
-                  <a href="#" class="link-more">Explore</a>
-                </div>
-              </div>
-            </div>
-            <h3><a href="#">Polar arctic expeditions</a></h3>
-            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,</p>
-          </article>
-          <article class="col-sm-6 col-md-4 article has-hover-s3">
-            <div class="img-wrap">
-              <a href="#">
-                <img src="img/listing/img-04.jpg" height="215" width="370" alt="image description">
-              </a>
-              <div class="img-caption text-uppercase">Peak Climbing</div>
-              <div class="hover-article">
-                <div class="star-rating">
-                  <span><span class="icon-star"></span></span>
-                  <span><span class="icon-star"></span></span>
-                  <span><span class="icon-star"></span></span>
-                  <span><span class="icon-star"></span></span>
-                  <span class="disable"><span class="icon-star"></span></span>
-                </div>
-                <div class="icons">
-                  <a href="#"><span class="icon-heart"></span></a>
-                  <a href="#"><span class="icon-reply"></span></a>
-                </div>
-                <div class="info-footer">
-                  <span class="price">from <span>$2749</span></span>
-                  <a href="#" class="link-more">Explore</a>
-                </div>
-              </div>
-            </div>
-            <h3><a href="#">Marine diving excursions</a></h3>
-            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,</p>
-          </article>
-          <article class="col-sm-6 col-md-4 article has-hover-s3">
-            <div class="img-wrap">
-              <a href="#">
-                <img src="img/listing/img-05.jpg" height="215" width="370" alt="image description">
-              </a>
-              <div class="img-caption text-uppercase">Treasure Hunting</div>
-              <div class="hover-article">
-                <div class="star-rating">
-                  <span><span class="icon-star"></span></span>
-                  <span><span class="icon-star"></span></span>
-                  <span><span class="icon-star"></span></span>
-                  <span><span class="icon-star"></span></span>
-                  <span class="disable"><span class="icon-star"></span></span>
-                </div>
-                <div class="icons">
-                  <a href="#"><span class="icon-heart"></span></a>
-                  <a href="#"><span class="icon-reply"></span></a>
-                </div>
-                <div class="info-footer">
-                  <span class="price">from <span>$2749</span></span>
-                  <a href="#" class="link-more">Explore</a>
-                </div>
-              </div>
-            </div>
-            <h3><a href="#">Go wild at national parks</a></h3>
-            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,</p>
-          </article>
-          <article class="col-sm-6 col-md-4 article has-hover-s3">
-            <div class="img-wrap">
-              <a href="#">
-                <img src="img/listing/img-06.jpg" height="215" width="370" alt="image description">
-              </a>
-              <div class="img-caption text-uppercase">A night with sky</div>
-              <div class="hover-article">
-                <div class="star-rating">
-                  <span><span class="icon-star"></span></span>
-                  <span><span class="icon-star"></span></span>
-                  <span><span class="icon-star"></span></span>
-                  <span><span class="icon-star"></span></span>
-                  <span class="disable"><span class="icon-star"></span></span>
-                </div>
-                <div class="icons">
-                  <a href="#"><span class="icon-heart"></span></a>
-                  <a href="#"><span class="icon-reply"></span></a>
-                </div>
-                <div class="info-footer">
-                  <span class="price">from <span>$2749</span></span>
-                  <a href="#" class="link-more">Explore</a>
-                </div>
-              </div>
-            </div>
-            <h3><a href="#">Educational trips in wild</a></h3>
-            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,</p>
-          </article>
+              <h3><a href="#">Go wild at national parks</a></h3>
+              <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,</p>
+            </article>
+          <?php endforeach; ?>
+
         </div>
       </div>
     </div>
   </div>
   <!-- couter block -->
-  <aside class="count-block">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-6 col-md-3 block-1">
-          <div class="holder">
-            <span class="icon icon-step"></span>
-            <span class="info"><span class="counter">8702</span></span>
-            <span class="txt">WILDLIFE SPECIES</span>
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3 block-2">
-          <div class="holder">
-            <span class="icon icon-fish-jumping"></span>
-            <span class="info"><span class="counter">378</span></span>
-            <span class="txt">ARCTIC EXPERIENCES</span>
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3 block-3">
-          <div class="holder">
-            <span class="icon icon-tree"></span>
-            <span class="info"><span class="counter">377</span></span>
-            <span class="txt">NATIONAL PARKS</span>
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3 block-4">
-          <div class="holder">
-            <span class="icon icon-duration"></span>
-            <span class="info"><span class="counter">8973</span></span>
-            <span class="txt">DAYS IN THE WILD</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </aside>
-  <!-- featured adventure content -->
-  <div class="featured-content adventure-holder">
-    <div class="container-fluid">
-      <div class="row same-height">
-        <div class="col-md-6 image height wow slideInLeft">
-          <div class="bg-stretch">
-            <img src="img/img-01.jpg" height="627" width="960" alt="image description">
-          </div>
-        </div>
-        <div class="col-md-6 text-block height wow slideInRight">
-          <div class="centered">
-            <h2 class="intro-heading">Botswana &amp; Angola - The Tribe</h2>
-            <p class="intro">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, Duis sed odio sit amet nibh vulputate cursus a it amet mauris.</p>
-            <a href="#" class="btn btn-primary btn-lg">explore</a>
-          </div>
-        </div>
-      </div>
-      <div class="row same-height">
-        <div class="col-md-6 image height wow slideInRight">
-          <div class="bg-stretch">
-            <img src="img/img-02.jpg" height="627" width="960" alt="image description">
-          </div>
-        </div>
-        <div class="col-md-6 text-block height wow slideInLeft">
-          <div class="centered">
-            <h2 class="intro-heading">Maritime Adventure - The Arctic</h2>
-            <p class="intro">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, Duis sed odio sit amet nibh vulputate cursus a it amet mauris.</p>
-            <a href="#" class="btn btn-primary btn-lg">explore</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+
   <!-- browse block -->
   <div class="browse-block">
     <div class="browse-destination column">
@@ -671,290 +196,20 @@
       <a href="#"><span>BROWSE BY ADVENTURES</span></a>
     </div>
   </div>
-  <!-- article list with boxed style -->
-  <section class="content-block article-boxed">
-    <div class="container">
-      <header class="content-heading">
-        <h2 class="main-heading">TOP ADVENTURES</h2>
-        <span class="main-subtitle">Our collection of the most popular adventures in 2016.</span>
-        <div class="seperator"></div>
-      </header>
-      <div class="content-holder content-boxed">
-        <div class="row db-3-col">
-          <article class="col-sm-6 col-md-4 article has-hover-s1">
-            <div class="thumbnail">
-              <div class="img-wrap">
-                <img src="img/listing/img-07.jpg" height="228" width="350" alt="image description">
-              </div>
-              <h3 class="small-space"><a href="tour-detail.html">Evening with Panda in China</a></h3>
-              <span class="info">Nordic Walk, Swiss Alps or French Hiking?</span>
-              <aside class="meta">
-                <span class="country">
-                  <span class="icon-world"> </span>12 Countries
-                </span>
-                <span class="activity">
-                  <span class="icon-acitivities"> </span>79 Activities
-                </span>
-              </aside>
-              <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,</p>
-              <a href="tour-detail.html" class="btn btn-default">explore</a>
-              <footer>
-                <ul class="social-networks">
-                  <li><a href="#"><span class="icon-twitter"></span></a></li>
-                  <li><a href="#"><span class="icon-google-plus"></span></a></li>
-                  <li><a href="#"><span class="icon-facebook"></span></a></li>
-                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                </ul>
-                <span class="price">from <span>$2749</span></span>
-              </footer>
-            </div>
-          </article>
-          <article class="col-sm-6 col-md-4 article has-hover-s1">
-            <div class="thumbnail">
-              <div class="img-wrap">
-                <img src="img/listing/img-08.jpg" height="228" width="350" alt="image description">
-              </div>
-              <h3 class="small-space"><a href="tour-detail.html">Sleeping with Sea Lion in Arctic</a></h3>
-              <span class="info">Nordic Walk, Swiss Alps or French Hiking?</span>
-              <aside class="meta">
-                <span class="country">
-                  <span class="icon-world"> </span>12 Countries
-                </span>
-                <span class="activity">
-                  <span class="icon-acitivities"> </span>79 Activities
-                </span>
-              </aside>
-              <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,</p>
-              <a href="tour-detail.html" class="btn btn-default">explore</a>
-              <footer>
-                <ul class="social-networks">
-                  <li><a href="#"><span class="icon-twitter"></span></a></li>
-                  <li><a href="#"><span class="icon-google-plus"></span></a></li>
-                  <li><a href="#"><span class="icon-facebook"></span></a></li>
-                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                </ul>
-                <span class="price">from <span>$2749</span></span>
-              </footer>
-            </div>
-          </article>
-          <article class="col-sm-6 col-md-4 article has-hover-s1">
-            <div class="thumbnail">
-              <div class="img-wrap">
-                <img src="img/listing/img-09.jpg" height="228" width="350" alt="image description">
-              </div>
-              <h3 class="small-space"><a href="tour-detail.html">Following Zebras to Water hole</a></h3>
-              <span class="info">Nordic Walk, Swiss Alps or French Hiking?</span>
-              <aside class="meta">
-                <span class="country">
-                  <span class="icon-world"> </span>12 Countries
-                </span>
-                <span class="activity">
-                  <span class="icon-acitivities"> </span>79 Activities
-                </span>
-              </aside>
-              <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,</p>
-              <a href="tour-detail.html" class="btn btn-default">explore</a>
-              <footer>
-                <ul class="social-networks">
-                  <li><a href="#"><span class="icon-twitter"></span></a></li>
-                  <li><a href="#"><span class="icon-google-plus"></span></a></li>
-                  <li><a href="#"><span class="icon-facebook"></span></a></li>
-                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                </ul>
-                <span class="price">from <span>$2749</span></span>
-              </footer>
-            </div>
-          </article>
-          <article class="col-sm-6 col-md-4 article has-hover-s1">
-            <div class="thumbnail">
-              <div class="img-wrap">
-                <img src="img/listing/img-10.jpg" height="228" width="350" alt="image description">
-              </div>
-              <h3 class="small-space"><a href="tour-detail.html">Discovering Wild Trails in Africa</a></h3>
-              <span class="info">Nordic Walk, Swiss Alps or French Hiking?</span>
-              <aside class="meta">
-                <span class="country">
-                  <span class="icon-world"> </span>12 Countries
-                </span>
-                <span class="activity">
-                  <span class="icon-acitivities"> </span>79 Activities
-                </span>
-              </aside>
-              <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,</p>
-              <a href="tour-detail.html" class="btn btn-default">explore</a>
-              <footer>
-                <ul class="social-networks">
-                  <li><a href="#"><span class="icon-twitter"></span></a></li>
-                  <li><a href="#"><span class="icon-google-plus"></span></a></li>
-                  <li><a href="#"><span class="icon-facebook"></span></a></li>
-                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                </ul>
-                <span class="price">from <span>$2749</span></span>
-              </footer>
-            </div>
-          </article>
-          <article class="col-sm-6 col-md-4 article has-hover-s1">
-            <div class="thumbnail">
-              <div class="img-wrap">
-                <img src="img/listing/img-11.jpg" height="228" width="350" alt="image description">
-              </div>
-              <h3 class="small-space"><a href="tour-detail.html">Angola Safari for Family &amp; Children</a></h3>
-              <span class="info">Nordic Walk, Swiss Alps or French Hiking?</span>
-              <aside class="meta">
-                <span class="country">
-                  <span class="icon-world"> </span>12 Countries
-                </span>
-                <span class="activity">
-                  <span class="icon-acitivities"> </span>79 Activities
-                </span>
-              </aside>
-              <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,</p>
-              <a href="tour-detail.html" class="btn btn-default">explore</a>
-              <footer>
-                <ul class="social-networks">
-                  <li><a href="#"><span class="icon-twitter"></span></a></li>
-                  <li><a href="#"><span class="icon-google-plus"></span></a></li>
-                  <li><a href="#"><span class="icon-facebook"></span></a></li>
-                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                </ul>
-                <span class="price">from <span>$2749</span></span>
-              </footer>
-            </div>
-          </article>
-          <article class="col-sm-6 col-md-4 article has-hover-s1">
-            <div class="thumbnail">
-              <div class="img-wrap">
-                <img src="img/listing/img-12.jpg" height="228" width="350" alt="image description">
-              </div>
-              <h3 class="small-space"><a href="tour-detail.html">Royal Safari in Bangaladesh</a></h3>
-              <span class="info">Nordic Walk, Swiss Alps or French Hiking?</span>
-              <aside class="meta">
-                <span class="country">
-                  <span class="icon-world"> </span>12 Countries
-                </span>
-                <span class="activity">
-                  <span class="icon-acitivities"> </span>79 Activities
-                </span>
-              </aside>
-              <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,</p>
-              <a href="tour-detail.html" class="btn btn-default">explore</a>
-              <footer>
-                <ul class="social-networks">
-                  <li><a href="#"><span class="icon-twitter"></span></a></li>
-                  <li><a href="#"><span class="icon-google-plus"></span></a></li>
-                  <li><a href="#"><span class="icon-facebook"></span></a></li>
-                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                </ul>
-                <span class="price">from <span>$2749</span></span>
-              </footer>
-            </div>
-          </article>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- content block with guide info -->
-  <section class="content-block guide-sub guide-add bg-white">
-    <div class="container">
-      <header class="content-heading">
-        <h2 class="main-heading">MEET THE GUIDES</h2>
-        <span class="main-subtitle">Our highly trained and efficient guides at your service</span>
-        <div class="seperator"></div>
-      </header>
-      <div class="content-holder">
-        <div class="row">
-          <div class="col-sm-6 col-md-4 img-article">
-            <div class="holder">
-              <div class="img-wrap">
-                <img src="img/listing/img-13.jpg" height="436" width="370" alt="image description">
-                <ul class="social-networks">
-                  <li><a href="#"><span class="icon-facebook"></span></a></li>
-                  <li><a href="#"><span class="icon-twitter"></span></a></li>
-                  <li><a href="#"><span class="icon-google-plus"></span></a></li>
-                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                </ul>
-              </div>
-              <div class="caption">
-                <h3 class="small-space">Jason Statham</h3>
-                <span class="designation">TREKKING GUIDE</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 img-article">
-            <div class="holder">
-              <div class="img-wrap">
-                <img src="img/listing/img-14.jpg" height="436" width="370" alt="image description">
-                <ul class="social-networks">
-                  <li><a href="#"><span class="icon-facebook"></span></a></li>
-                  <li><a href="#"><span class="icon-twitter"></span></a></li>
-                  <li><a href="#"><span class="icon-google-plus"></span></a></li>
-                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                </ul>
-              </div>
-              <div class="caption">
-                <h3 class="small-space">Cleona Tropez</h3>
-                <span class="designation">TREKKING GUIDE</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 img-article">
-            <div class="holder">
-              <div class="img-wrap">
-                <img src="img/listing/img-15.jpg" height="436" width="370" alt="image description">
-                <ul class="social-networks">
-                  <li><a href="#"><span class="icon-facebook"></span></a></li>
-                  <li><a href="#"><span class="icon-twitter"></span></a></li>
-                  <li><a href="#"><span class="icon-google-plus"></span></a></li>
-                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                </ul>
-              </div>
-              <div class="caption">
-                <h3 class="small-space">Martin Blake</h3>
-                <span class="designation">TREKKING GUIDE</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
   <!-- testimonial block -->
   <div class="testimonial-holder parallax" data-stellar-background-ratio="0.25" id="testimonial-home-page">
     <div class="container">
       <div id="testimonial-home-slide">
-        <div class="slide">
-          <blockquote class="testimonial-quote">
-            <div class="img">
-              <img src="img/thumbs/img-01.jpg" height="112" width="112" alt="image description">
-            </div>
-            <div class="text">
-              <cite>STEVE JORGAN - NORWAY</cite>
-              <q>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.”</q>
-            </div>
-          </blockquote>
-        </div>
-        <div class="slide">
-          <blockquote class="testimonial-quote">
-            <div class="img">
-              <img src="img/thumbs/img-02.jpg" height="112" width="112" alt="image description">
-            </div>
-            <div class="text">
-              <cite>DARREN SPRATT - AUSTRALIA</cite>
-              <q>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.”</q>
-            </div>
-          </blockquote>
-        </div>
-        <div class="slide">
-          <blockquote class="testimonial-quote">
-            <div class="img">
-              <img src="img/thumbs/img-03.jpg" height="112" width="112" alt="image description">
-            </div>
-            <div class="text">
-              <cite>RIYA YAHIDA - SPAIN</cite>
-              <q>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.”</q>
-            </div>
-          </blockquote>
-        </div>
+        <?php foreach ($review as $r): ?>
+          <div class="slide">
+            <blockquote class="testimonial-quote">
+              <div class="text">
+                <cite><?php echo $r->nama ?></cite>
+                <q>"<?php echo $r->keterangan ?>"</q>
+              </div>
+            </blockquote>
+          </div>
+        <?php endforeach; ?>
       </div>
     </div>
   </div>
