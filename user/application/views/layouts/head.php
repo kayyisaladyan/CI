@@ -24,4 +24,6 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/') ?>vendors/revolution/css/settings.css">
 	<!-- include main css -->
 	<link media="all" rel="stylesheet" href="<?php echo base_url('assets/') ?>css/main.css">
+	<!-- include fancybox css -->
+	<link media="all" rel="stylesheet" href="<?php echo base_url('assets/') ?>vendors/fancybox/jquery.fancybox.css">
 </head>

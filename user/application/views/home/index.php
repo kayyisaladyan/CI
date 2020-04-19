@@ -117,7 +117,7 @@
             <?php foreach ($limit as $l): ?>
               <li>
                 <a href="#" class="thumbnail">
-                  <img src="<?php echo base_url('../admin/uploads/'.$l->gambar) ?>" height="165" width="170" alt="image description">
+                  <img src="<?php echo base_url('../admin/uploads/'.$l->gambar) ?>"  alt="image description">
                   <span class="hover icon-asia"></span>
                   <span class="info"><?php echo $l->nama_wisata ?></span>
                 </a>

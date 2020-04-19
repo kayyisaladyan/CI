@@ -158,6 +158,10 @@
 <script type="text/javascript" src="<?php echo base_url('assets/') ?>vendors/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
 <!-- revolutions slider script -->
 <script src="<?php echo base_url('assets/') ?>js/revolution.js"></script>
+<script src="<?php echo base_url('assets/') ?>js/mailchimp.js"></script>
+
+<script src="<?php echo base_url('assets/') ?>js/sticky-kit-init.js"></script>
+
 </body>
 
 <!-- Mirrored from html.waituk.com/entrada/home-revolution.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 Apr 2020 10:57:05 GMT -->
