@@ -75,69 +75,35 @@
 
             <div class="prod-tabs" id="product-tabs">
               <div class="tab-btns clearfix">
-                <a href="#prod-reviews" class="tab-btn active-btn">Reviews (03)</a>
+                <a href="#prod-reviews" class="tab-btn active-btn">Reviews (<?php echo $jumlah ?>)</a>
               </div>
 
               <div class="tabs-container">
                 <!--End Tab-->
 
                 <div class="tab active-tab" id="prod-reviews">
-                  <h3>3 Reviews Found</h3>
+                  <h3><?php echo $jumlah ?> Reviews Found</h3>
                   <div class="reviews-container">
 
-                    <div class="review-box clearfix">
-                      <figure class="rev-thumb"><img src="img/avatar1.jpg" alt="">
-                      </figure>
-                      <div class="rev-content">
-                        <div class="rating">
-                          <i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star-empty"></i>
-                        </div>
-                        <div class="rev-info">
-                          Admin – April 03, 2016:
-                        </div>
-                        <div class="rev-text">
-                          <p>
-                            Sed eget turpis a pede tempor malesuada. Vivamus quis mi at leo pulvinar hendrerit. Cum sociis natoque penatibus et magnis dis
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="review-box clearfix">
-                      <figure class="rev-thumb"><img src="img/avatar2.jpg" alt="">
-                      </figure>
-                      <div class="rev-content">
-                        <div class="rating">
-                          <i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star-empty"></i>
-                        </div>
-                        <div class="rev-info">
-                          Ahsan – April 01, 2016:
-                        </div>
-                        <div class="rev-text">
-                          <p>
-                            Sed eget turpis a pede tempor malesuada. Vivamus quis mi at leo pulvinar hendrerit. Cum sociis natoque penatibus et magnis dis
-                          </p>
+                    <?php foreach ($review as $r): ?>
+                      <div class="review-box clearfix">
+                        <figure class="rev-thumb"><img src="img/avatar3.jpg" alt="">
+                        </figure>
+                        <div class="rev-content">
+                          <div class="rating">
+                            <i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star-empty"></i>
+                          </div>
+                          <div class="rev-info">
+                            <?php echo $r->nama ?> – <?php echo $r->email ?>:
+                          </div>
+                          <div class="rev-text">
+                            <p>
+                              <?php echo $r->keterangan ?>
+                            </p>
+                          </div>
                         </div>
                       </div>
-                    </div>
-
-                    <div class="review-box clearfix">
-                      <figure class="rev-thumb"><img src="img/avatar3.jpg" alt="">
-                      </figure>
-                      <div class="rev-content">
-                        <div class="rating">
-                          <i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star-empty"></i>
-                        </div>
-                        <div class="rev-info">
-                          Sara – March 31, 2016:
-                        </div>
-                        <div class="rev-text">
-                          <p>
-                            Sed eget turpis a pede tempor malesuada. Vivamus quis mi at leo pulvinar hendrerit. Cum sociis natoque penatibus et magnis dis
-                          </p>
-                        </div>
-                      </div>
-                    </div>
+                    <?php endforeach; ?>
 
                   </div>
                   <!--End Review Container-->
@@ -146,40 +112,29 @@
 
                   <div class="add-review">
                     <h3>Add a Review</h3>
-                    <form method="post" action="http://www.ansonika.com/citytours/shop-single.html">
+                    <?= form_open('Wisata/ulasan/'.$wisata->id_wisata,array('method' =>'POST')) ?>
                       <div class="row">
                         <div class="form-group col-md-6">
                           <label>Name *</label>
-                          <input type="text" name="name" value="" placeholder="" class="form-control">
+                          <input type="text" name="name" value="<?php echo $this->session->nama ?>" class="form-control">
                         </div>
                         <div class="form-group col-md-6">
                           <label>Email *</label>
-                          <input type="email" name="email" value="" placeholder="" class="form-control">
+                          <input type="email" name="email" value="<?php echo $this->session->email ?>" class="form-control">
                         </div>
                         <div class="form-group col-md-6">
-                          <label>Website *</label>
-                          <input type="text" name="website" value="" placeholder="" class="form-control">
-                        </div>
-                        <div class="form-group col-md-6">
-                          <label>Rating </label>
-                          <div class="rating">
-                            <a href="#" class="rate-box" title="1 Out of 5"><span class="icon-star"></span></a>
-                            <a href="#" class="rate-box" title="2 Out of 5"><span class="icon-star"></span><span class="icon-star"></span></a>
-                            <a href="#" class="rate-box" title="3 Out of 5"><span class="icon-star"></span><span class="icon-star"></span><span class="icon-star"></span></a>
-                            <a href="#" class="rate-box" title="4 Out of 5"><span class="icon-star"></span><span class="icon-star"></span><span class="icon-star"></span><span class="icon-star"></span></a>
-                            <a href="#" class="rate-box" title="5 Out of 5"><span class="icon-star"></span><span class="icon-star"></span><span class="icon-star"></span><span class="icon-star"></span><span
-                                class="icon-star"></span></a>
-                          </div>
+                          <label>Rating *</label>
+                          <input type="number" name="rating" class="form-control">
                         </div>
                         <div class="form-group col-md-12">
                           <label>Your Review</label>
-                          <textarea name="review-message" class="form-control" style="height:150px;"></textarea>
+                          <textarea name="keterangan" class="form-control" style="height:150px;"></textarea>
                         </div>
                         <div class="form-group col-md-12">
-                          <button type="button" class="btn_1">Add Review</button>
+                          <button class="btn_1">Add Review</button>
                         </div>
                       </div>
-                    </form>
+                    <?= form_close() ?>
                   </div>
                 </div>
               </div>

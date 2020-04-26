@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 26, 2020 at 06:32 AM
+-- Generation Time: Apr 26, 2020 at 07:43 AM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 7.3.3
 
@@ -21,6 +21,21 @@ SET time_zone = "+00:00";
 --
 -- Database: `wisata`
 --
+
+DELIMITER $$
+--
+-- Procedures
+--
+CREATE DEFINER=`root`@`localhost` PROCEDURE `pvalidasi` (IN `user` VARCHAR(15), IN `wisata` VARCHAR(15))  NO SQL
+BEGIN
+	SELECT id_user,nama_wisata FROM user 
+    	JOIN transaksi USING(id_user) 	
+        JOIN detail_transaksi USING(id_transaksi) 
+        JOIN wisata using(id_wisata)
+	WHERE user = transaksi.id_user AND wisata=detail_transaksi.id_wisata;
+END$$
+
+DELIMITER ;
 
 -- --------------------------------------------------------
 
@@ -84,9 +99,10 @@ CREATE TABLE `review` (
 --
 
 INSERT INTO `review` (`id_review`, `nama`, `email`, `rating`, `keterangan`, `id_wisata`) VALUES
-('RV001', 'Fauzi Ghifari', 'fauziari@gmail.com', 5, 'saya berangkat ke Bromo bersama keluarga menggunakan paket tour. tetapi pemandangan bromo dengan kabut mistisnya memang menakjubkan.', 'WST0002'),
-('RV002', 'Rafif Yusuf', 'rafifyusuf@gmail.com', 4.7, 'tidak dapat di ungkapkan dengan kata -kata buktikan sendiri. saya akan menjamin kepuasan yang anda dapatkan (Mount Bromo).', 'WST0004'),
-('RV003', 'Rara amrian', 'rara@gmail.com', 3, 'cukup menyenangkan bearada di labuan bajo, tetapi harga yang terlalu mahal membuat saya kehabisan uang dikarenakan biaya transportasi yang mahal.', 'WST0007');
+('RV0001', 'Fauzi Ghifari', 'fauziari@gmail.com', 5, 'saya berangkat ke Bromo bersama keluarga menggunakan paket tour. tetapi pemandangan bromo dengan kabut mistisnya memang menakjubkan.', 'WST0002'),
+('RV0002', 'Rafif Yusuf', 'rafifyusuf@gmail.com', 4.7, 'tidak dapat di ungkapkan dengan kata -kata buktikan sendiri. saya akan menjamin kepuasan yang anda dapatkan (Mount Bromo).', 'WST0004'),
+('RV0003', 'Rara amrian', 'rara@gmail.com', 3, 'cukup menyenangkan bearada di labuan bajo, tetapi harga yang terlalu mahal membuat saya kehabisan uang dikarenakan biaya transportasi yang mahal.', 'WST0007'),
+('RV0004', 'stephen', 'stephen@mail.com', 1, 'asasassa', 'WST0009');
 
 -- --------------------------------------------------------
 
