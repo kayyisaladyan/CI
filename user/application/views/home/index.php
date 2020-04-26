@@ -1,283 +1,158 @@
-<!-- main banner -->
-<div id="slider-wrapper" class="banner banner-home banner-slider">
-  <!-- revolution slider starts -->
-  <div id="rev_slider_70_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="web-product-light-hero66" style="margin:0px auto;background-color:#474d4b;padding:0px;margin-top:0px;margin-bottom:0px;">
-    <div id="rev_slider_70_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.0.7">
-      <ul>
-        <li data-index="rs-163" data-transition="slideoververtical" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1500"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off" data-title="Intro" data-description="">
-          <!-- main image for revolution slider -->
-          <img src="<?php echo base_url('assets/') ?>img/banner/img-05.jpg" alt="image"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+<main>
+  <div id="carousel-home">
+          <div class="owl-carousel owl-theme">
+               <div class="owl-slide cover" style="background-image: url(<?php echo base_url('assets/') ?>img/slides/slide_home_3.jpg);">
+                  <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.5)">
+                      <div class="container">
+                          <div class="row justify-content-center justify-content-md-start">
+                              <div class="col-lg-12 static">
+                                  <div class="slide-text text-center white">
+                                      <h2 class="owl-slide-animated owl-slide-title">Going Inside<br>The Louvre Museum</h2>
+                                      <p class="owl-slide-animated owl-slide-subtitle">
+                                          Discover hidden wonders on trips curated by Citytours Tours Experts
+                                      </p>
+                                      <div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="all_tours_list.html" role="button">Read more</a></div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
 
-          <div class="tp-caption banner-heading-sub tp-resizeme rs-parallaxlevel-10" id="slide-163-layer-1"
-            data-x="['left','left','left','center']"
-            data-hoffset="['100','100','40','0']"
-            data-y="['middle','middle','middle','middle']"
-            data-voffset="['-40','-40','-100','-40']"
-            data-fontsize="['64','64','64','36']"
-            data-lineheight="['85','85','85','50']"
-            data-width="none"
-            data-height="none"
-            data-whitespace="nowrap"
-            data-transform_idle="o:1;"
-            data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
-            data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-            data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-            data-start="750"
-            data-splitin="none"
-            data-splitout="none"
-            data-responsive_offset="on"
-            style="z-index: 6; letter-spacing: 0; font-weight: 100; text-transform: uppercase; white-space: nowrap; color: #ffffff;">TOURS, TRAVEL &amp;
           </div>
+          <div id="icon_drag_mobile"></div>
+      </div>
+      <!--/carousel-->
 
-          <div class="tp-caption banner-heading-sub tp-resizeme rs-parallaxlevel-10" id="slide-163-layer-3"
-            data-x="['left','left','left','center']"
-            data-hoffset="['100','100','40','0']"
-            data-y="['middle','middle','middle','middle']"
-            data-voffset="['40','40','-10','0']"
-            data-fontsize="['80','80','80','40']"
-            data-lineheight="['110','110','110','60']"
-            data-width="none"
-            data-height="none"
-            data-whitespace="nowrap"
-            data-transform_idle="o:1;"
-            data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
-            data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-            data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-            data-start="1000"
-            data-splitin="none"
-            data-splitout="none"
-            data-responsive_offset="on"
-            style="z-index: 7; letter-spacing: 8px; text-indent: 0; font-style: italic; font-weight: 900; white-space: nowrap; color: #b0a377;">ADVENTURE
-          </div>
+  <div class="container margin_60">
 
-          <div class="tp-caption tp-resizeme banner-heading-sub rs-parallaxlevel-0" id="slide-163-layer-4"
-            data-x="['left','left','left','center']"
-            data-hoffset="['100','100','40','60']"
-            data-y="['middle','middle','middle','middle']"
-            data-voffset="['181','181','100','90']"
-            data-fontsize="['36','36','36','26']"
-            data-lineheight="['44','44','44','32']"
-            data-width="['1200','1000','750','420']"
-            data-height="none"
-            data-whitespace="normal"
-            data-transform_idle="o:1;"
-            data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
-            data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-            data-mask_in="x:0px;y:0px;"
-            data-mask_out="x:inherit;y:inherit;"
-            data-start="1000"
-            data-splitin="none"
-            data-splitout="none"
-            data-responsive_offset="on"
-            style="z-index: 5; letter-spacing: 0; font-weight: 300; font-style: italic; color: #ffffff">Adventure HTML5 Template
-          </div>
-
-          <div class="tp-caption rev-btn rs-parallaxlevel-10" id="slide-163-layer-2"
-            data-x="['left','left','left','center']"
-            data-hoffset="['100','100','40','0']"
-            data-y="['middle','middle','bottom','bottom']"
-            data-voffset="['300','300','250','150']"
-            data-width="none"
-            data-height="none"
-            data-whitespace="nowrap"
-            data-transform_idle="o:1;"
-            data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power3.easeOut;"
-            data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(107, 105, 87, 1.00);bg:rgba(107, 105, 87, 1.00);"
-            data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
-            data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-            data-mask_out="x:inherit;y:inherit;"
-            data-start="1250"
-            data-splitin="none"
-            data-splitout="none"
-            data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-164","delay":""}]'
-            data-responsive_offset="on">
-            <a class="btn btn-banner" href="#">FIND TOURS</a>
-          </div>
-        </li>
-      </ul>
+    <div class="main_title">
+      <h2>Depok <span>Top</span> Wisata</h2>
+      <p>Each item listed with Carousel and Lazy Load Feature.</p>
     </div>
-  </div>
-</div>
-<!-- main container -->
-<main id="main">
-  <section class="content-block bg-white">
-    <div class="container">
-      <header class="content-heading">
-        <h2 class="main-heading">THE ADVENTURE</h2>
-        <span class="main-subtitle">Mastering the art of perfect adventure for 10+ years in the wild.</span>
-        <div class="seperator"></div>
-      </header>
-      <div class="adventure-holder gallery-home-holder">
-        <div class="row">
-          <div class="col-md-6 img-block">
-            <!-- gallery list -->
-            <ul class="gallery-list gallery-with-icon">
-            <?php foreach ($limit as $l): ?>
-              <li>
-                <a href="#" class="thumbnail">
-                  <img src="<?php echo base_url('../admin/uploads/'.$l->gambar) ?>"  alt="image description">
-                  <span class="hover icon-asia"></span>
-                  <span class="info"><?php echo $l->nama_wisata ?></span>
-                </a>
-              </li>
+
+          <div class="row">
+
+
+            <?php foreach ($popular as $p): ?>
+              <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                  <div class="tour_container">
+                      <div class="ribbon_3 popular"><span>Popular</span></div>
+                      <div class="img_container_2">
+                         <div class="owl-carousel owl-theme carousel_item">
+                              <div class="item">
+                                  <a href="<?php echo base_url('wisata/detail_wisata/'.$p->id_wisata) ?>"><img data-src="<?php echo base_url('../admin/uploads/'.$p->gambar) ?>" width="800" height="533" alt="image" class="img-fluid owl-lazy"></a>
+                              </div>
+                          </div>
+                          <!--/carousel-->
+                           <div class="short_info">
+                              <i class="icon_set_1_icon-44"></i>Historic Buildings<span class="price"><sup>Rp</sup><?php echo number_format($p->harga) ?></span>
+                          </div>
+                      </div>
+                      <div class="tour_title">
+                          <h3><strong><?php echo $p->nama_wisata ?></strong> tour</h3>
+                          <div class="rating">
+                              <i class="icon-smile voted"></i><i class="icon-smile voted"></i><i class="icon-smile voted"></i><i class="icon-smile voted"></i><i class="icon-smile"></i><small>(75)</small>
+                          </div>
+                          <!-- end rating -->
+                          <div class="wishlist">
+                              <a class="tooltip_flip tooltip-effect-1" href="javascript:void(0);">+<span class="tooltip-content-flip"><span class="tooltip-back">Add to wishlist</span></span></a>
+                          </div>
+                          <!-- End wish list-->
+                      </div>
+                  </div>
+                  <!-- End box tour -->
+              </div>
+              <!-- End col -->
             <?php endforeach; ?>
 
-            </ul>
-          </div>
-          <div class="col-md-6 text-block">
-            <div class="centered">
-              <h2 class="intro-heading">Living a Life of Adventure</h2>
-              <p class="intro">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. </p>
-              <a href="#" class="btn btn-info-sub btn-md btn-shadow radius">Dig More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- article list holder -->
-  <div class="content-block content-spacing">
-    <div class="container">
-      <header class="content-heading">
-        <h2 class="main-heading">POPULAR TOURS</h2>
-        <span class="main-subtitle">We have a unique way of meeting your adventurous expectations!</span>
-        <div class="seperator"></div>
-      </header>
-      <div class="content-holder">
-        <div class="row db-3-col">
-
-
-
-          <?php foreach ($popular as $a): ?>
-            <article class="col-sm-6 col-md-4 article has-hover-s3">
-              <div class="img-wrap">
-                <a href="#">
-                  <img src="<?php echo base_url('../admin/uploads/'.$a->gambar) ?>" height="215" width="370" alt="image description">
-                </a>
-                <div class="img-caption text-uppercase">Treasure Hunting</div>
-                <div class="hover-article">
-                  <div class="star-rating">
-                    <span><span class="icon-star"></span></span>
-                    <span><span class="icon-star"></span></span>
-                    <span><span class="icon-star"></span></span>
-                    <span><span class="icon-star"></span></span>
-                    <span class="disable"><span class="icon-star"></span></span>
+            <?php foreach ($rated as $r): ?>
+              <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.4s">
+                  <div class="tour_container">
+                      <div class="ribbon_3"><span>Top rated</span></div>
+                      <div class="img_container_2">
+                          <div class="owl-carousel owl-theme carousel_item">
+                              <div class="item">
+                                  <a href="<?php echo base_url('wisata/detail_wisata/'.$r->id_wisata) ?>"><img data-src="<?php echo base_url('../admin/uploads/'.$r->gambar) ?>" width="800" height="533" alt="image" class="img-fluid owl-lazy"></a>
+                              </div>
+                          </div>
+                          <!--/carousel-->
+                          <div class="short_info">
+                              <i class="icon_set_1_icon-30"></i>Walking tour<span class="price"><sup>Rp</sup><?php echo number_format($r->harga) ?></span>
+                          </div>
+                      </div>
+                      <div class="tour_title">
+                          <h3><strong><?php echo $r->nama_wisata ?></strong> tour</h3>
+                          <div class="rating">
+                              <i class="icon-smile voted"></i><i class="icon-smile voted"></i><i class="icon-smile voted"></i><i class="icon-smile voted"></i><i class="icon-smile"></i><small>(75)</small>
+                          </div>
+                          <!-- end rating -->
+                          <div class="wishlist">
+                              <a class="tooltip_flip tooltip-effect-1" href="javascript:void(0);">+<span class="tooltip-content-flip"><span class="tooltip-back">Add to wishlist</span></span></a>
+                          </div>
+                          <!-- End wish list-->
+                      </div>
                   </div>
-                  <div class="icons">
-                    <a href="#"><span class="icon-heart"></span></a>
-                    <a href="#"><span class="icon-reply"></span></a>
-                  </div>
-                  <div class="info-footer">
-                    <span class="price">from <span>$2749</span></span>
-                    <a href="#" class="link-more">Explore</a>
-                  </div>
-                </div>
+                  <!-- End box tour -->
               </div>
-              <h3><a href="#">Go wild at national parks</a></h3>
-              <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,</p>
-            </article>
-          <?php endforeach; ?>
-
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- couter block -->
-
-  <!-- browse block -->
-  <div class="browse-block">
-    <div class="browse-destination column">
-      <a href="#"><span>BROWSE BY DESTINATION</span></a>
-    </div>
-    <div class="browse-adventures column">
-      <a href="#"><span>BROWSE BY ADVENTURES</span></a>
-    </div>
-  </div>
-  <!-- testimonial block -->
-  <div class="testimonial-holder parallax" data-stellar-background-ratio="0.25" id="testimonial-home-page">
-    <div class="container">
-      <div id="testimonial-home-slide">
-        <?php foreach ($review as $r): ?>
-          <div class="slide">
-            <blockquote class="testimonial-quote">
-              <div class="text">
-                <cite><?php echo $r->nama ?></cite>
-                <q>"<?php echo $r->keterangan ?>"</q>
-              </div>
-            </blockquote>
+              <!-- End col -->
+            <?php endforeach; ?>
           </div>
-        <?php endforeach; ?>
-      </div>
-    </div>
+          <!-- End row -->
+
+    <p class="text-center add_bottom_30">
+      <a href="<?php echo base_url('Wisata') ?>" class="btn_1">View all Wisata</a>
+    </p>
+
+    <hr class="mt-5 mb-5">
+
+
+
+
   </div>
-  <!-- partner list -->
-  <article class="partner-block">
-    <div class="container">
-      <header class="content-heading">
-        <h2 class="main-heading">Partner</h2>
-        <span class="main-subtitle">People who always support and endorse our good work</span>
-        <div class="seperator"></div>
-      </header>
-      <div class="partner-list" id="partner-slide">
-        <div class="partner">
-          <a href="#">
-            <img width="130" src="https://html-i0ipxhws.netdna-ssl.com/entrada/img/logos/logo-travelagancy.svg" alt="image description">
-            <img class="hover" width="130" src="https://html-i0ipxhws.netdna-ssl.com/entrada/img/logos/logo-travelagancy-hover.svg" alt="image description">
-          </a>
-        </div>
-        <div class="partner">
-          <a href="#">
-            <img width="130" src="https://html-i0ipxhws.netdna-ssl.com/entrada/img/logos/logo-around-world.svg" alt="image description">
-            <img class="hover" width="130" src="https://html-i0ipxhws.netdna-ssl.com/entrada/img/logos/logo-around-world-hover.svg" alt="image description">
-          </a>
-        </div>
-        <div class="partner">
-          <a href="#">
-            <img width="130" src="https://html-i0ipxhws.netdna-ssl.com/entrada/img/logos/logo-tourist.svg" alt="image description">
-            <img class="hover" width="130" src="https://html-i0ipxhws.netdna-ssl.com/entrada/img/logos/logo-tourist-hover.svg" alt="image description">
-          </a>
-        </div>
-        <div class="partner">
-          <a href="#">
-            <img width="130" src="https://html-i0ipxhws.netdna-ssl.com/entrada/img/logos/logo-adventure.svg" alt="image description">
-            <img class="hover" width="130" src="https://html-i0ipxhws.netdna-ssl.com/entrada/img/logos/logo-adventure-hover.svg" alt="image description">
-          </a>
-        </div>
-        <div class="partner">
-          <a href="#">
-            <img width="130" src="https://html-i0ipxhws.netdna-ssl.com/entrada/img/logos/logo-around-world.svg" alt="image description">
-            <img class="hover" width="130" src="https://html-i0ipxhws.netdna-ssl.com/entrada/img/logos/logo-around-world-hover.svg" alt="image description">
-          </a>
-        </div>
-        <div class="partner">
-          <a href="#">
-            <img width="130" src="https://html-i0ipxhws.netdna-ssl.com/entrada/img/logos/logo-travelagancy.svg" alt="image description">
-            <img class="hover" width="130" src="https://html-i0ipxhws.netdna-ssl.com/entrada/img/logos/logo-travelagancy-hover.svg" alt="image description">
-          </a>
-        </div>
-        <div class="partner">
-          <a href="#">
-            <img width="130" src="https://html-i0ipxhws.netdna-ssl.com/entrada/img/logos/logo-adventure.svg" alt="image description">
-            <img class="hover" width="130" src="https://html-i0ipxhws.netdna-ssl.com/entrada/img/logos/logo-adventure-hover.svg" alt="image description">
-          </a>
-        </div>
-        <div class="partner">
-          <a href="#">
-            <img width="130" src="https://html-i0ipxhws.netdna-ssl.com/entrada/img/logos/logo-around-world.svg" alt="image description">
-            <img class="hover" width="130" src="https://html-i0ipxhws.netdna-ssl.com/entrada/img/logos/logo-around-world-hover.svg" alt="image description">
-          </a>
-        </div>
-        <div class="partner">
-          <a href="#">
-            <img width="130" src="https://html-i0ipxhws.netdna-ssl.com/entrada/img/logos/logo-travelagancy.svg" alt="image description">
-            <img class="hover" width="130" src="https://html-i0ipxhws.netdna-ssl.com/entrada/img/logos/logo-travelagancy-hover.svg" alt="image description">
-          </a>
-        </div>
+  <!-- End container -->
+
+  <div class="white_bg">
+    <div class="container margin_60">
+      <div class="main_title">
+        <h2>Plan <span>Your Tour</span> Easly</h2>
+        <p>
+          Quisque at tortor a libero posuere laoreet vitae sed arcu. Curabitur consequat.
+        </p>
       </div>
+      <div class="row feature_home_2">
+                  <div class="col-md-4 text-center">
+                      <img src="<?php echo base_url('assets/') ?>img/adventure_icon_1.svg" alt="" width="75" height="75">
+                      <h3>Itineraries studied in detail</h3>
+                      <p>Suscipit invenire petentium per in. Ne magna assueverit vel. Vix movet perfecto facilisis in, ius ad maiorum corrumpit, his esse docendi in.</p>
+                  </div>
+                  <div class="col-md-4 text-center">
+                      <img src="<?php echo base_url('assets/') ?>img/adventure_icon_2.svg" alt="" width="75" height="75">
+                      <h3>Room and food included</h3>
+                      <p> Cum accusam voluptatibus at, et eum fuisset sententiae. Postulant tractatos ius an, in vis fabulas percipitur, est audiam phaedrum electram ex.</p>
+                  </div>
+                  <div class="col-md-4 text-center">
+                      <img src="<?php echo base_url('assets/') ?>img/adventure_icon_3.svg" alt="" width="75" height="75">
+                      <h3>Everything organized</h3>
+                      <p>Integre vivendo percipitur eam in, graece suavitate cu vel. Per inani persius accumsan no. An case duis option est, pro ad fastidii contentiones.</p>
+                  </div>
+              </div>
+
+              <div class="banner_2">
+                  <div class="wrapper d-flex align-items-center opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.3)" style="background-color: rgba(0, 0, 0, 0.3);">
+                      <div>
+                          <h3>Your Perfect<br>Tour Experience</h3>
+                          <p>Activities and accommodations</p>
+                          <a href="all_tours_list.html" class="btn_1">Read more</a>
+                      </div>
+                  </div>
+                  <!-- /wrapper -->
+              </div>
+              <!-- /banner_2 -->
+
     </div>
-  </article>
+    <!-- End container -->
+  </div>
+  <!-- End white_bg -->
 </main>
-</div>
+<!-- End main -->

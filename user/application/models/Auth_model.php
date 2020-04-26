@@ -20,7 +20,6 @@ class Auth_model extends CI_Model{
   {
     $this->db->where('username',$data['username']);
     $this->db->where('password',$data['password']);
-    $this->db->where('role','User');
     $query  = $this->db->get('user');
     return $query;
   }
@@ -29,6 +28,11 @@ class Auth_model extends CI_Model{
   {
     $query = $this->db->insert('user',$data);
     return $query;
+  }
+
+  public function getUser($username)
+  {
+    return $this->db->get_where('user', ['username' => $username]);
   }
 
 }

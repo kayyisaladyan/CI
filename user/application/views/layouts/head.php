@@ -1,29 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<!-- Mirrored from html.waituk.com/entrada/home-revolution.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 Apr 2020 10:57:02 GMT -->
+
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title><?php echo $title ?></title>
-	<!-- favion -->
-	<link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url('assets/') ?>img/favicon-16x16.png">
-	<!-- link to font awesome -->
-	<link media="all" rel="stylesheet" href="<?php echo base_url('assets/') ?>vendors/font-awesome/css/font-awesome.css">
-	<!-- link to custom icomoon fonts -->
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/') ?>css/fonts/icomoon/icomoon.css">
-	<!-- link to wow js animation -->
-	<link media="all" rel="stylesheet" href="<?php echo base_url('assets/') ?>vendors/animate/animate.css">
-	<!-- include bootstrap css -->
-	<link media="all" rel="stylesheet" href="<?php echo base_url('assets/') ?>css/bootstrap.css">
-	<!-- include owl css -->
-	<link media="all" rel="stylesheet" href="<?php echo base_url('assets/') ?>vendors/owl-carousel/owl.carousel.css">
-	<link media="all" rel="stylesheet" href="<?php echo base_url('assets/') ?>vendors/owl-carousel/owl.theme.css">
-	<!-- link to revolution css  -->
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/') ?>vendors/revolution/css/settings.css">
-	<!-- include main css -->
-	<link media="all" rel="stylesheet" href="<?php echo base_url('assets/') ?>css/main.css">
-	<!-- include fancybox css -->
-	<link media="all" rel="stylesheet" href="<?php echo base_url('assets/') ?>vendors/fancybox/jquery.fancybox.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Citytours - Premium site template for city tours agencies, transfers and tickets.">
+    <meta name="author" content="Ansonika">
+    <title><?php echo $title ?></title>
+
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="<?php echo base_url('assets/') ?>img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="<?php echo base_url('assets/') ?>img/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="<?php echo base_url('assets/') ?>img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="<?php echo base_url('assets/') ?>img/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="<?php echo base_url('assets/') ?>img/apple-touch-icon-144x144-precomposed.png">
+
+    <!-- GOOGLE WEB FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Gochi+Hand|Montserrat:300,400,700" rel="stylesheet">
+
+    <!-- COMMON CSS -->
+		<link href="<?php echo base_url('assets/') ?>css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url('assets/') ?>css/style.css" rel="stylesheet">
+		<link href="<?php echo base_url('assets/') ?>css/vendors.css" rel="stylesheet">
+
+	<!-- CUSTOM CSS -->
+		<link href="<?php echo base_url('assets/') ?>css/custom.css" rel="stylesheet">
+
+    <link href="<?php echo base_url('assets/') ?>css/shop.css" rel="stylesheet">
+
 </head>

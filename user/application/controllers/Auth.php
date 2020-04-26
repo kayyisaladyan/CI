@@ -9,10 +9,10 @@ class Auth extends CI_Controller{
     $this->load->model('Auth_model');
   }
 
-  public function index()
+  public function register()
   {
-    $data['title'] = 'Login | Register';
-    $this->load->view('layouts/header',$data);
+    $data['title'] = 'register';
+    $this->load->view('layouts/header');
     $this->load->view('home/auth');
     $this->load->view('layouts/footer');
   }
@@ -22,7 +22,7 @@ class Auth extends CI_Controller{
   	$this->form_validation->set_rules('password','Password','required');
 
   	if($this->form_validation->run()==FALSE){
-  		$this->index();
+  		redirect(base_url());;
   	} else {
   		$username = $this->input->post('username',true);
   		$password = $this->input->post('password',true);
@@ -37,7 +37,7 @@ class Auth extends CI_Controller{
   			redirect(base_url());
   		} else {
   			$this->session->set_flashdata('status','Username atau Password tidak ditemukan');
-  			redirect(base_url('auth'));
+  			redirect(base_url());
   		}
   	}
   }
@@ -65,23 +65,21 @@ class Auth extends CI_Controller{
         $password   = $this->input->post('password1',true);
         $email      = $this->input->post('email',true);
         $no_telepon = $this->input->post('no_telepon',true);
-        $role       = 'User';
 
         $data = array(
                 'id_user'   => $id_user,
                 'username'  => $username,
                 'nama'      => $nama,
                 'password'  => md5($password),
-                'role'      => $role,
                 'email'     => $email,
                 'no_telepon'=> $no_telepon
             );
 
         $result = $this->Auth_model->register($data);
         if ($result) {
-          redirect(base_url('auth'));
+          redirect(base_url());
         }else {
-          redirect(base_url('auth'));
+          redirect(base_url());
         }
       }
     }
@@ -89,7 +87,7 @@ class Auth extends CI_Controller{
 
   public function logout(){
   	$this->session->sess_destroy();
-  	redirect(base_url('auth/index'));
+  	redirect(base_url(''));
   }
 
 }

@@ -6,6 +6,7 @@ class Dashboard extends CI_Controller {
 	public function __construct(){
 		parent::__construct();
 		$this->load->model('Wisata_model');
+		$this->load->model('Transaksi_model');
 	}
 
 	public function index()
@@ -129,6 +130,25 @@ class Dashboard extends CI_Controller {
 	{
 	   $this->Wisata_model->deleteWisata($id);
 		 redirect(base_url('dashboard/daftar_wisata'));
+	}
+
+	public function transaksi()
+	{
+	 $judul['judul'] = 'Ini Halaman Tables';
+	 $data['transaksi'] = $this->Transaksi_model->getTransaksi()->result();
+
+	 $this->load->view('layouts/header', $judul);
+	 $this->load->view('dashboard/transaksi', $data);
+	 $this->load->view('layouts/footer');
+	}
+
+	public function verifikasi($id_transaksi)
+	{
+	  $data = array(
+				'status_transaksi' => 'Sudah dibayar'
+		);
+		$this->Transaksi_model->verifikasi($data,$id_transaksi);
+		redirect('dashboard/transaksi');
 	}
 
 

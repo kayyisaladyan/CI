@@ -73,6 +73,19 @@
           <span>Data Wisata</span></a>
       </li>
 
+      <hr class="sidebar-divider">
+
+      <!-- Heading -->
+      <div class="sidebar-heading">
+        Transaksi
+      </div>
+
+      <li class="nav-item">
+        <a class="nav-link" href="<?php echo base_url('dashboard/transaksi') ?>">
+          <i class="fas fa-fw fa-chart-area"></i>
+          <span>Transaksi</span></a>
+      </li>
+
       <!-- Divider -->
       <hr class="sidebar-divider d-none d-md-block">
 

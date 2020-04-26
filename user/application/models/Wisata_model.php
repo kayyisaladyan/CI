@@ -13,18 +13,15 @@ class Wisata_model extends CI_Model{
     return $this->db->get_where('wisata',array('id_wisata' => $id_wisata));
   }
 
-  public function getWisataLimit()
-  {
-    return $this->db->get('wisata', '9');
-  }
-
   public function getWisataPopular()
   {
     return $this->db->get('wisata', '10','7');
   }
-  public function getWisataPopular1()
+
+  public function getWisataRated()
   {
-    return $this->db->get('wisata', '10','6');
+    return $this->db->get('wisata', '3','2');
   }
+
 
 }

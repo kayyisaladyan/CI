@@ -1,168 +1,133 @@
-<!-- main footer -->
-<footer id="footer">
-  <div class="container">
-    <!-- newsletter form -->
-    <form action="https://html.waituk.com/entrada/php/subscribe.html" id="signup" method="post" class="newsletter-form">
-      <fieldset>
-        <div class="input-holder">
-          <input type="email" class="form-control" placeholder="Email Address" name="subscriber_email" id="subscriber_email">
-          <input type="submit" value="GO">
-        </div>
-        <span class="info" id="subscribe_message">To receive news, updates and tour packages via email.</span>
-      </fieldset>
-    </form>
-    <!-- footer links -->
-    <div class="row footer-holder">
-      <nav class="col-sm-4 col-lg-2 footer-nav active">
-        <h3>About Entrada</h3>
-        <ul class="slide">
-          <li><a href="#">The Company</a></li>
-          <li><a href="#">Our Values</a></li>
-          <li><a href="#">Responsiblity</a></li>
-          <li><a href="#">Our Mission</a></li>
-          <li><a href="#">Opportunity</a></li>
-          <li><a href="#">Safety Concerns</a></li>
-        </ul>
-      </nav>
-      <nav class="col-sm-4 col-lg-2 footer-nav">
-        <h3>Destinations</h3>
-        <ul class="slide">
-          <li><a href="#">Nepal</a></li>
-          <li><a href="#">Thailand</a></li>
-          <li><a href="#">Vietnam</a></li>
-          <li><a href="#">Fiji Island</a></li>
-          <li><a href="#">United States</a></li>
-          <li><a href="#">Australia</a></li>
-        </ul>
-      </nav>
-      <nav class="col-sm-4 col-lg-2 footer-nav">
-        <h3>themes</h3>
-        <ul class="slide">
-          <li><a href="#">Hiking and Camping</a></li>
-          <li><a href="#">Trekking Tours</a></li>
-          <li><a href="#">Jungle Safaris</a></li>
-          <li><a href="#">Bungee Jumping</a></li>
-          <li><a href="#">Wildlife &amp; Polar</a></li>
-          <li><a href="#">Peak Climbing</a></li>
-        </ul>
-      </nav>
-      <nav class="col-sm-4 col-lg-2 footer-nav">
-        <h3>reservation</h3>
-        <ul class="slide">
-          <li><a href="#">Booking Conditions</a></li>
-          <li><a href="#">My Bookings</a></li>
-          <li><a href="#">Refund Policy</a></li>
-          <li><a href="#">Includes &amp; Excludes</a></li>
-          <li><a href="#">Your Responsibilities</a></li>
-          <li><a href="#">Order a Brochure</a></li>
-        </ul>
-      </nav>
-      <nav class="col-sm-4 col-lg-2 footer-nav">
-        <h3>ask Entrada</h3>
-        <ul class="slide">
-          <li><a href="#">Why Entrada?</a></li>
-          <li><a href="#">Ask an Expert</a></li>
-          <li><a href="#">Safety Updates</a></li>
-          <li><a href="#">We Help When...</a></li>
-          <li><a href="#">Personal Matters</a></li>
-        </ul>
-      </nav>
-      <nav class="col-sm-4 col-lg-2 footer-nav last">
-        <h3>contact Entrada</h3>
-        <ul class="slide address-block">
-          <li class="wrap-text"><span class="icon-tel"></span> <a href="tel:02072077878">(020) 72077878</a></li>
-          <li class="wrap-text"><span class="icon-fax"></span> <a href="tel:02088828282">(020) 88828282</a></li>
-          <li class="wrap-text"><span class="icon-email"></span> <a href="mailto:info@entrada.com">info@entrada.com</a></li>
-          <li><span class="icon-home"></span> <address>707 London Road Isleworth, Middx TW7 7QD</address></li>
-        </ul>
-      </nav>
-    </div>
-    <!-- social wrap -->
-    <ul class="social-wrap">
-      <li class="facebook"><a href="#">
-        <span class="icon-facebook"></span>
-        <strong class="txt">Like Us</strong>
-      </a></li>
-      <li class="twitter"><a href="#">
-        <span class="icon-twitter"></span>
-        <strong class="txt">Follow On</strong>
-      </a></li>
-      <li class="google-plus"><a href="#">
-        <span class="icon-google-plus"></span>
-        <strong class="txt">+1 On Google</strong>
-      </a></li>
-      <li class="vimeo"><a href="#">
-        <span class="icon-vimeo"></span>
-        <strong class="txt">Share At</strong>
-      </a></li>
-      <li class="pin"><a href="#">
-        <span class="icon-pin"></span>
-        <strong class="txt">Pin It</strong>
-      </a></li>
-      <li class="dribble"><a href="#">
-        <span class="icon-dribble"></span>
-        <strong class="txt">Dribbble</strong>
-      </a></li>
-    </ul>
-  </div>
-  <div class="footer-bottom">
+<footer class="revealed">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <!-- copyright -->
-          <strong class="copyright"><i class="fa fa-copyright"></i> Copyright 2016 - Entrada - An Adventure Theme - by  <a href="#">Waituk</a></strong>
-        </div>
-      </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Need help?</h3>
+                <a href="tel://004542344599" id="phone">+45 423 445 99</a>
+                <a href="mailto:help@citytours.com" id="email_footer">help@citytours.com</a>
+            </div>
+            <div class="col-md-3">
+                <h3>About</h3>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Register</a></li>
+                     <li><a href="#">Terms and condition</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h3>Discover</h3>
+                <ul>
+                    <li><a href="#">Community blog</a></li>
+                    <li><a href="#">Tour guide</a></li>
+                    <li><a href="#">Wishlist</a></li>
+                     <li><a href="#">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h3>Settings</h3>
+                <div class="styled-select">
+                    <select name="lang" id="lang">
+                        <option value="English" selected>English</option>
+                        <option value="French">French</option>
+                        <option value="Spanish">Spanish</option>
+                        <option value="Russian">Russian</option>
+                    </select>
+                </div>
+                <div class="styled-select">
+                    <select name="currency" id="currency">
+                        <option value="USD" selected>USD</option>
+                        <option value="EUR">EUR</option>
+                        <option value="GBP">GBP</option>
+                        <option value="RUB">RUB</option>
+                    </select>
+                </div>
+            </div>
+        </div><!-- End row -->
+        <div class="row">
+            <div class="col-md-12">
+                <div id="social_footer">
+                    <ul>
+                        <li><a href="#"><i class="icon-facebook"></i></a></li>
+                        <li><a href="#"><i class="icon-twitter"></i></a></li>
+                        <li><a href="#"><i class="icon-google"></i></a></li>
+                        <li><a href="#"><i class="icon-instagram"></i></a></li>
+                        <li><a href="#"><i class="icon-pinterest"></i></a></li>
+                        <li><a href="#"><i class="icon-vimeo"></i></a></li>
+                        <li><a href="#"><i class="icon-youtube-play"></i></a></li>
+                    </ul>
+                    <p>© Citytours 2018</p>
+                </div>
+            </div>
+        </div><!-- End row -->
+    </div><!-- End container -->
+</footer><!-- End footer -->
+
+<div id="toTop"></div><!-- Back to top button -->
+
+<!-- Search Menu -->
+<div class="search-overlay-menu">
+<span class="search-overlay-close"><i class="icon_set_1_icon-77"></i></span>
+<form role="search" id="searchform" method="get">
+  <input value="" name="q" type="search" placeholder="Search..." />
+  <button type="submit"><i class="icon_set_1_icon-78"></i>
+  </button>
+</form>
+</div><!-- End Search Menu -->
+
+<!-- Sign In Popup -->
+<div id="sign-in-dialog" class="zoom-anim-dialog mfp-hide">
+<div class="small-dialog-header">
+  <h3>Sign In</h3>
+</div>
+<?= form_open('auth/proses_login',array('method' =>'POST')) ?>
+  <div class="sign-in-wrapper">
+    <?php if (!empty($this->session->flashdata('status') ) ): ?>
+       <div class="alert alert-danger">
+           <center><?php echo $this->session->flashdata('status') ?></center>
+       </div>
+     <?php endif; ?>
+    <div class="form-group">
+      <label>Username</label>
+      <input type="text" class="form-control" name="username" >
+      <i class="icon-user"></i>
+    </div>
+    <div class="form-group">
+      <label>Password</label>
+      <input type="password" class="form-control" name="password">
+      <i class="icon_lock_alt"></i>
+    </div>
+    <div class="text-center"><input type="submit" value="Log In" class="btn_login"></div>
+    <div class="text-center">
+      Don’t have an account? <a href="<?php echo base_url('Auth/register') ?>">Sign up</a>
     </div>
   </div>
-</footer>
+<?php echo form_close() ?>
+<!--form -->
 </div>
-<!-- scroll to top -->
-<div class="scroll-holder text-center">
-<a href="javascript:" id="scroll-to-top"><i class="icon-arrow-down"></i></a>
-</div>
-<!-- jquery library -->
-<script src="<?php echo base_url('assets/') ?>vendors/jquery/jquery-2.1.4.min.js"></script>
-<!-- external scripts -->
-<script src="<?php echo base_url('assets/') ?>vendors/bootstrap/javascripts/bootstrap.min.js"></script>
-<script src="<?php echo base_url('assets/') ?>vendors/jquery-placeholder/jquery.placeholder.min.js"></script>
-<script src="<?php echo base_url('assets/') ?>vendors/match-height/jquery.matchHeight.js"></script>
-<script src="<?php echo base_url('assets/') ?>vendors/wow/wow.min.js"></script>
-<script src="<?php echo base_url('assets/') ?>vendors/stellar/jquery.stellar.min.js"></script>
-<script src="<?php echo base_url('assets/') ?>vendors/validate/jquery.validate.js"></script>
-<script src="<?php echo base_url('assets/') ?>vendors/waypoint/waypoints.min.js"></script>
-<script src="<?php echo base_url('assets/') ?>vendors/counter-up/jquery.counterup.min.js"></script>
-<script src="<?php echo base_url('assets/') ?>vendors/jquery-ui/jquery-ui.min.js"></script>
-<script src="<?php echo base_url('assets/') ?>vendors/jQuery-touch-punch/jquery.ui.touch-punch.min.js"></script>
-<script src="<?php echo base_url('assets/') ?>vendors/fancybox/jquery.fancybox.js"></script>
-<script src="<?php echo base_url('assets/') ?>vendors/owl-carousel/owl.carousel.min.js"></script>
-<script src="<?php echo base_url('assets/') ?>vendors/jcf/js/jcf.js"></script>
-<script src="<?php echo base_url('assets/') ?>vendors/jcf/js/jcf.select.js"></script>
-<script src="<?php echo base_url('assets/') ?>js/mailchimp.js"></script>
-<script src="<?php echo base_url('assets/') ?>vendors/retina/retina.min.js"></script>
-<script src="<?php echo base_url('assets/') ?>vendors/bootstrap-datetimepicker-master/dist/js/bootstrap-datepicker.js"></script>
-<!-- custom jquery script -->
-<script src="<?php echo base_url('assets/') ?>js/jquery.main.js"></script>
-<!-- revolution slider plugin -->
-<script type="text/javascript" src="<?php echo base_url('assets/') ?>vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url('assets/') ?>vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
-<!-- rs5.0 core files -->
-<script type="text/javascript" src="<?php echo base_url('assets/') ?>vendors/revolution/js/jquery.themepunch.tools.min838f.js?rev=5.0"></script>
-<script type="text/javascript" src="<?php echo base_url('assets/') ?>vendors/revolution/js/jquery.themepunch.revolution.min838f.js?rev=5.0"></script>
-<script type="text/javascript" src="<?php echo base_url('assets/') ?>vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url('assets/') ?>vendors/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url('assets/') ?>vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url('assets/') ?>vendors/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url('assets/') ?>vendors/revolution/js/extensions/revolution.extension.video.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url('assets/') ?>vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url('assets/') ?>vendors/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-<!-- revolutions slider script -->
-<script src="<?php echo base_url('assets/') ?>js/revolution.js"></script>
-<script src="<?php echo base_url('assets/') ?>js/mailchimp.js"></script>
+<!-- /Sign In Popup -->
 
-<script src="<?php echo base_url('assets/') ?>js/sticky-kit-init.js"></script>
+<script>
+  if ($('.prod-tabs .tab-btn').length) {
+    $('.prod-tabs .tab-btn').on('click', function(e) {
+      e.preventDefault();
+      var target = $($(this).attr('href'));
+      $('.prod-tabs .tab-btn').removeClass('active-btn');
+      $(this).addClass('active-btn');
+      $('.prod-tabs .tab').fadeOut(0);
+      $('.prod-tabs .tab').removeClass('active-tab');
+      $(target).fadeIn(500);
+      $(target).addClass('active-tab');
+    });
+
+  }
+</script>
+
+<!-- Common scripts -->
+<script src="<?php echo base_url('assets/') ?>js/jquery-2.2.4.min.js"></script>
+<script src="<?php echo base_url('assets/') ?>js/common_scripts_min.js"></script>
+<script src="<?php echo base_url('assets/') ?>js/functions.js"></script>
 
 </body>
-
-<!-- Mirrored from html.waituk.com/entrada/home-revolution.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 Apr 2020 10:57:05 GMT -->
 </html>

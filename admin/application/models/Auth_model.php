@@ -7,8 +7,7 @@ class Auth_model extends CI_Model{
   {
     $this->db->where('username',$data['username']);
     $this->db->where('password',$data['password']);
-    $this->db->where('role','Admin');
-    $query  = $this->db->get('user');
+    $query  = $this->db->get('admin');
     return $query;
   }
 
