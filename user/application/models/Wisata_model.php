@@ -5,7 +5,8 @@ class Wisata_model extends CI_Model{
 
   public function getWisata()
   {
-    return $this->db->get('wisata');
+    $procedure = "CALL pwisata()";
+    return $this->db->query($procedure);
   }
 
   public function getWisataSingle($id_wisata)

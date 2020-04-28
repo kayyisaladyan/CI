@@ -21,7 +21,8 @@
                       <th>Nama Wisata</th>
                       <th>Jam Operasional</th>
                       <th>Harga</th>
-                      <th>Rating</th>
+                      <th>Tiket Terjual</th>
+                      <th>Keterangan</th>
                       <th>Aksi</th>
                     </tr>
                   </thead>
@@ -34,7 +35,8 @@
                       <td><?php echo $db->nama_wisata; ?></td>
                       <td><?php echo $db->jam_operasional; ?></td>
                       <td>Rp <?php echo number_format($db->harga); ?></td>
-                      <td><?php echo $db->rating; ?></td>
+                      <td><?php echo $db->tiket_terjual; ?></td>
+                      <td><?php echo $db->ket; ?></td>
                       <td><a class="btn btn-info btn-circle"
                       href="<?php echo base_url('dashboard/edit_wisata/'.$db->id_wisata) ?>"><i class="fas fa-info-circle"></i></a>
                       <a class="btn btn-danger btn-circle"
