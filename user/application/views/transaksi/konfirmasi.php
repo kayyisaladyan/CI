@@ -1,6 +1,6 @@
 <section id="hero_2">
   <div class="intro_title">
-    <h1>Place your order</h1>
+    <h1>Pesanan Tiket</h1>
     <div class="bs-wizard row">
 
       <div class="col-4 bs-wizard-step complete">
@@ -8,7 +8,7 @@
         <div class="progress">
           <div class="progress-bar"></div>
         </div>
-        <a href="cart.html" class="bs-wizard-dot"></a>
+        <a class="bs-wizard-dot"></a>
       </div>
 
       <div class="col-4 bs-wizard-step complete">
@@ -16,7 +16,7 @@
         <div class="progress">
           <div class="progress-bar"></div>
         </div>
-        <a href="payment.html" class="bs-wizard-dot"></a>
+        <a class="bs-wizard-dot"></a>
       </div>
 
       <div class="col-4 bs-wizard-step complete">
@@ -24,7 +24,7 @@
         <div class="progress">
           <div class="progress-bar"></div>
         </div>
-        <a href="#" class="bs-wizard-dot"></a>
+        <a  class="bs-wizard-dot"></a>
       </div>
 
     </div>
@@ -53,10 +53,7 @@
       <div class="col-lg-8 add_bottom_15">
 
         <div class="form_title">
-          <h3><strong><i class="icon-tag-1"></i></strong>Booking summary</h3>
-          <p>
-            Mussum ipsum cacilds, vidis litro abertis.
-          </p>
+          <h3><strong><i class="icon-tag-1"></i></strong>Detail Pembelian</h3>
         </div>
         <div class="step">
           <?php $no = 1; foreach ($single as $s): ?>
@@ -105,13 +102,13 @@
         <div class="box_style_1">
           <h3 class="inner">Thank you!</h3>
           <p>
-            Nihil inimicus ex nam, in ipsum dignissim duo. Tale principes interpretaris vim ei, has posidonium definitiones ut. Duis harum fuisset ut his, duo an dolor epicuri appareat.
+            Terima kasih telah melakukan transaksi di aplikasi ini.
           </p>
           <hr>
           <?php if ($transaksi->status_transaksi == 'Sudah dibayar'): ?>
-            <a class="btn_full_outline" href="<?php echo base_url('Transaksi/invoice/'.$transaksi->kode_transaksi) ?>" target="_blank">View your invoice</a>
+            <a class="btn_full_outline" href="<?php echo base_url('Transaksi/invoice/'.$transaksi->kode_transaksi) ?>" target="_BLANK">Cetak Invoice</a>
           <?php else: ?>
-            <a class="btn_full_outline" href="#" target="_blank">Bayar Dulu</a>
+            <a class="btn_full_outline" href="#" target="_BLANK">Bayar Dulu</a>
           <?php endif; ?>
         </div>
         <div class="box_style_4">

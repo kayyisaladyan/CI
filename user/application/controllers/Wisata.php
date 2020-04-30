@@ -12,7 +12,11 @@ class Wisata extends CI_Controller{
 
   public function index()
   {
-    $data['wisata'] = $this->Wisata_model->getWisata()->result();
+    $config['total_rows'] = $this->db->count_all_results('wisata');
+    $config['per_page']   = 3;
+    $this->pagination->initialize($config);
+    $data['start']    = $this->uri->segment(3);
+    $data['wisata'] = $this->Wisata_model->getWisata($config['per_page'],$data['start'])->result();
     $data['title']  = 'Wisata';
 
     $this->load->view('layouts/header',$data);
@@ -55,7 +59,6 @@ class Wisata extends CI_Controller{
             'rating'      => $rating,
             'email'       => $email
         );
-        // var_dump($data);
         $this->Review_model->insertUlasan($data);
         echo "<script>alert('Anda berhasil melakukan review, Terima Kasih!');history.go(-1);</script>";
       }

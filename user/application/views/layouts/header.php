@@ -27,7 +27,6 @@
                           <?php else: ?>
                             <li><a href="#sign-in-dialog" id="access_link">Sign in</a></li>
                           <?php endif; ?>
-                            <li><a href="wishlist.html" id="wishlist_link">Wishlist</a></li>
                         </ul>
                     </div>
                 </div><!-- End row -->
@@ -79,8 +78,8 @@
 
                                     <li>
                                         <div>Total: <span>Rp <?=number_format($this->cart->total())?></span></div>
-                                        <a href="cart.html" class="button_drop">Go to cart</a>
-                                        <a href="payment.html" class="button_drop outline">Check out</a>
+                                        <a href="<?php echo base_url('transaksi/keranjang') ?>" class="button_drop">Go to cart</a>
+                                        <a href="<?php echo base_url('transaksi/checkout') ?>" class="button_drop outline">Check out</a>
                                     </li>
                                 </ul>
                             </div><!-- End dropdown-cart-->

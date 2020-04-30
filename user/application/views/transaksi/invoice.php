@@ -15,6 +15,9 @@
         border-top: 2px solid;
     }
     </style>
+    <script>
+		window.print();
+	</script>
 <?php $this->load->view('layouts/head'); ?>
 <body>
   <div class="container">

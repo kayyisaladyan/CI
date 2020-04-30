@@ -36,8 +36,7 @@ class Auth extends CI_Controller{
   			$this->session->set_userdata($cek_user->row_array());
   			redirect(base_url());
   		} else {
-  			$this->session->set_flashdata('status','Username atau Password tidak ditemukan');
-  			redirect(base_url());
+  			echo "<script>alert('Username atau password tidak valid');history.go(-1);</script>";
   		}
   	}
   }

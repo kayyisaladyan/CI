@@ -7,8 +7,8 @@ class Transaksi extends CI_Controller{
   {
     parent::__construct();
     if (empty($this->session->username)) {
+      echo "<script>alert('Anda harus login terlebih dahulu');history.go(-1);</script>";
       $this->cart->destroy();
-      redirect(base_url());
     }
     $this->load->model('Wisata_model');
     $this->load->model('Auth_model');
@@ -36,7 +36,7 @@ class Transaksi extends CI_Controller{
       $this->load->view('transaksi/checkout',$data);
       $this->load->view('layouts/footer');
     }else {
-      redirect(base_url());
+      redirect('wisata');
     }
   }
 

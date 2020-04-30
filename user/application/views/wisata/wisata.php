@@ -1,4 +1,4 @@
-<section class="parallax-window" data-parallax="scroll" data-image-src="<?php echo base_url('assets/') ?>img/slides/slide_home_3.jpg" data-natural-width="1400" data-natural-height="470">
+<section class="parallax-window" data-parallax="scroll" data-image-src="<?php echo base_url('assets/') ?>img/index.jpeg" data-natural-width="1400" data-natural-height="470">
   <div class="parallax-content-1">
     <div class="animated fadeInDown">
       <h1>Paris tours</h1>
@@ -58,81 +58,7 @@
           </ul>
         </div>
 
-        <div id="filters_col">
-          <a data-toggle="collapse" href="#collapseFilters" aria-expanded="false" aria-controls="collapseFilters" id="filters_col_bt"><i class="icon_set_1_icon-65"></i>Filters</a>
-          <div class="collapse show" id="collapseFilters">
-            <div class="filter_type">
-              <h6>Price</h6>
-              <input type="text" id="range" name="range" value="">
-            </div>
-            <div class="filter_type">
-              <h6>Rating</h6>
-              <ul>
-                <li>
-                  <label>
-                    <input type="checkbox"><span class="rating">
-                    <i class="icon-smile voted"></i><i class="icon-smile voted"></i><i class="icon-smile voted"></i><i class="icon-smile voted"></i><i class="icon-smile voted"></i>
-                    </span>
-                  </label>
-                </li>
-                <li>
-                  <label>
-                    <input type="checkbox"><span class="rating">
-                    <i class="icon-smile voted"></i><i class="icon-smile voted"></i><i class="icon-smile voted"></i><i class="icon-smile voted"></i><i class="icon-smile"></i>
-                    </span>
-                  </label>
-                </li>
-                <li>
-                  <label>
-                    <input type="checkbox"><span class="rating">
-                    <i class="icon-smile voted"></i><i class="icon-smile voted"></i><i class="icon-smile voted"></i><i class="icon-smile"></i><i class="icon-smile"></i>
-                    </span>
-                  </label>
-                </li>
-                <li>
-                  <label>
-                    <input type="checkbox"><span class="rating">
-                    <i class="icon-smile voted"></i><i class="icon-smile voted"></i><i class="icon-smile"></i><i class="icon-smile"></i><i class="icon-smile"></i>
-                    </span>
-                  </label>
-                </li>
-                <li>
-                  <label>
-                    <input type="checkbox"><span class="rating">
-                    <i class="icon-smile voted"></i><i class="icon-smile"></i><i class="icon-smile"></i><i class="icon-smile"></i><i class="icon-smile"></i>
-                    </span>
-                  </label>
-                </li>
-              </ul>
-            </div>
-            <div class="filter_type">
-              <h6>Facility</h6>
-              <ul>
-                <li>
-                  <label>
-                    <input type="checkbox">Pet allowed
-                  </label>
-                </li>
-                <li>
-                  <label>
-                    <input type="checkbox">Groups allowed
-                  </label>
-                </li>
-                <li>
-                  <label>
-                    <input type="checkbox">Tour guides
-                  </label>
-                </li>
-                <li>
-                  <label>
-                    <input type="checkbox">Access for disabled
-                  </label>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!--End collapse -->
-        </div>
+
         <!--End filters col-->
         <div class="box_style_2">
           <i class="icon_set_1_icon-57"></i>
@@ -209,26 +135,7 @@
 
         <hr>
 
-        <nav aria-label="Page navigation">
-          <ul class="pagination justify-content-center">
-            <li class="page-item">
-              <a class="page-link" href="#" aria-label="Previous">
-                <span aria-hidden="true">&laquo;</span>
-                <span class="sr-only">Previous</span>
-              </a>
-            </li>
-            <li class="page-item active"><span class="page-link">1<span class="sr-only">(current)</span></span>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item">
-              <a class="page-link" href="#" aria-label="Next">
-                <span aria-hidden="true">&raquo;</span>
-                <span class="sr-only">Next</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
+        <?= $this->pagination->create_links() ?>
         <!-- end pagination-->
 
       </div>

@@ -3,10 +3,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Wisata_model extends CI_Model{
 
-  public function getWisata()
+  public function getWisata($limit, $start)
   {
-    $procedure = "CALL pwisata()";
-    return $this->db->query($procedure);
+    return $this->db->get('wisata', $limit, $start);
   }
 
   public function getWisataSingle($id_wisata)

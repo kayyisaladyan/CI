@@ -1,4 +1,4 @@
-<section class="parallax-window" data-parallax="scroll" data-image-src="img/header_bg.jpg" data-natural-width="1400" data-natural-height="470">
+<section class="parallax-window" data-parallax="scroll" data-image-src="<?php echo base_url('assets/') ?>img/index.jpeg" data-natural-width="1400" data-natural-height="470">
   <div class="parallax-content-1">
     <div class="animated fadeInDown">
       <h1>Pricing tables</h1>
@@ -24,9 +24,9 @@
 
   <div class="container margin_60">
     <div class="main_title">
-      <h2><span>Affordable </span>packages for travellers</h2>
+      <h2><span>DAFTAR Transaksi</h2>
       <p>
-        Quisque at tortor a libero posuere laoreet vitae sed arcu. Curabitur consequat.
+        Lakukan pembayaran secepatnya
       </p>
     </div>
     <hr>
@@ -59,44 +59,6 @@
     <!-- end row -->
 
     <hr>
-
-    <div class="row">
-      <div class="col-md-12">
-        <h3>Membership FAQ</h3>
-      </div>
-    </div>
-    <!-- end row -->
-
-    <div class="row">
-
-      <div class="col-md-4">
-        <div class="question_box">
-          <h3>No sit debitis meliore postulant, per ex prompta alterum sanctus?</h3>
-          <p>
-            Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.
-          </p>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="question_box">
-          <h3>Autem putent singulis usu ea, bonorum suscipit eum?</h3>
-          <p>
-            Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.
-          </p>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="question_box">
-          <h3>Pro moderatius philosophia ad, ad mea mupercipitur?</h3>
-          <p>
-            Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.
-          </p>
-        </div>
-      </div>
-
-    </div>
     <!-- end row -->
 
   </div>
